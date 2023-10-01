@@ -1,0 +1,10 @@
+title,Location of tree cover loss in Indonesia
+threshold,30
+extent_year,2000
+unit,ha
+page_size,5
+start_year,2001
+end_year,2022
+date_downloaded,2023-09-27
+metadata,https://api.resourcewatch.org/v1/gfw-metadata/widget_tree_cover_loss_location
+link,https://www.globalforestwatch.org/dashboards/country/IDN/?category=undefined
