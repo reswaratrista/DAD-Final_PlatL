@@ -1,0 +1,2326 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.RelationshipCalculations.true...RelationshipCalculations />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='data_sampah_merged+ (2)' inline='true' name='federated.072446r0ycgrbs10bc94j0lclcos' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_sampah_merged' name='textscan.0wgevux1ujz6lh1b775hr108v26f'>
+            <connection class='textscan' directory='/Users/trista/Documents/GitHub/reswaratrista/DAD-Final_PlatL/cleaned_dataset' filename='data_sampah_merged.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0wgevux1ujz6lh1b775hr108v26f' name='data_banjir.csv' table='[data_banjir#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Kode Identitas Bencana' ordinal='0' />
+            <column datatype='integer' name='ID Kabupaten' ordinal='1' />
+            <column datatype='date' name='Tanggal Kejadian' ordinal='2' />
+            <column datatype='string' name='Kejadian' ordinal='3' />
+            <column datatype='string' name='Kabupaten' ordinal='4' />
+            <column datatype='string' name='Provinsi' ordinal='5' />
+            <column datatype='string' name='Penyebab' ordinal='6' />
+            <column datatype='integer' name='Meninggal' ordinal='7' />
+            <column datatype='integer' name='Hilang' ordinal='8' />
+            <column datatype='integer' name='Terluka' ordinal='9' />
+            <column datatype='integer' name='Rumah Rusak' ordinal='10' />
+            <column datatype='integer' name='Rumah Terendam' ordinal='11' />
+            <column datatype='integer' name='Fasum Rusak' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.0wgevux1ujz6lh1b775hr108v26f' name='data_sampah_merged.csv' table='[data_sampah_merged#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Provinsi' ordinal='1' />
+              <column datatype='integer' name='Tahun' ordinal='2' />
+              <column datatype='real' name='Timbulan Sampah Harian (Ton)' ordinal='3' />
+              <column datatype='real' name='Timbulan Sampah Tahunan (Ton)' ordinal='4' />
+              <column datatype='real' name='Sampah masuk (ton/tahun)' ordinal='5' />
+              <column datatype='real' name='Sampah terkelola (ton/tahun)' ordinal='6' />
+              <column datatype='real' name='Bahan baku Pakan Ternak' ordinal='7' />
+              <column datatype='real' name='Bahan baku Kompos' ordinal='8' />
+              <column datatype='real' name='Bahan baku Daur Ulang' ordinal='9' />
+              <column datatype='real' name='Bahan baku Up-cycle' ordinal='10' />
+              <column datatype='real' name='Sisa Makanan (%)' ordinal='11' />
+              <column datatype='real' name='Kayu-Ranting (%)' ordinal='12' />
+              <column datatype='real' name='Kertas-Karton (%)' ordinal='13' />
+              <column datatype='real' name='Plastik(%)' ordinal='14' />
+              <column datatype='real' name='Logam(%)' ordinal='15' />
+              <column datatype='real' name='Kain(%)' ordinal='16' />
+              <column datatype='real' name='Karet- Kulit (%)' ordinal='17' />
+              <column datatype='real' name='Kaca(%)' ordinal='18' />
+              <column datatype='real' name='Lainnya(%)' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0wgevux1ujz6lh1b775hr108v26f' name='data_banjir.csv' table='[data_banjir#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Kode Identitas Bencana' ordinal='0' />
+              <column datatype='integer' name='ID Kabupaten' ordinal='1' />
+              <column datatype='date' name='Tanggal Kejadian' ordinal='2' />
+              <column datatype='string' name='Kejadian' ordinal='3' />
+              <column datatype='string' name='Kabupaten' ordinal='4' />
+              <column datatype='string' name='Provinsi' ordinal='5' />
+              <column datatype='string' name='Penyebab' ordinal='6' />
+              <column datatype='integer' name='Meninggal' ordinal='7' />
+              <column datatype='integer' name='Hilang' ordinal='8' />
+              <column datatype='integer' name='Terluka' ordinal='9' />
+              <column datatype='integer' name='Rumah Rusak' ordinal='10' />
+              <column datatype='integer' name='Rumah Terendam' ordinal='11' />
+              <column datatype='integer' name='Fasum Rusak' ordinal='12' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Bahan baku Daur Ulang]' value='[data_sampah_merged.csv].[Bahan baku Daur Ulang]' />
+          <map key='[Bahan baku Kompos]' value='[data_sampah_merged.csv].[Bahan baku Kompos]' />
+          <map key='[Bahan baku Pakan Ternak]' value='[data_sampah_merged.csv].[Bahan baku Pakan Ternak]' />
+          <map key='[Bahan baku Up-cycle]' value='[data_sampah_merged.csv].[Bahan baku Up-cycle]' />
+          <map key='[F1]' value='[data_sampah_merged.csv].[F1]' />
+          <map key='[Fasum Rusak]' value='[data_banjir.csv].[Fasum Rusak]' />
+          <map key='[Hilang]' value='[data_banjir.csv].[Hilang]' />
+          <map key='[ID Kabupaten]' value='[data_banjir.csv].[ID Kabupaten]' />
+          <map key='[Kabupaten]' value='[data_banjir.csv].[Kabupaten]' />
+          <map key='[Kaca(%)]' value='[data_sampah_merged.csv].[Kaca(%)]' />
+          <map key='[Kain(%)]' value='[data_sampah_merged.csv].[Kain(%)]' />
+          <map key='[Karet- Kulit (%)]' value='[data_sampah_merged.csv].[Karet- Kulit (%)]' />
+          <map key='[Kayu-Ranting (%)]' value='[data_sampah_merged.csv].[Kayu-Ranting (%)]' />
+          <map key='[Kejadian]' value='[data_banjir.csv].[Kejadian]' />
+          <map key='[Kertas-Karton (%)]' value='[data_sampah_merged.csv].[Kertas-Karton (%)]' />
+          <map key='[Kode Identitas Bencana]' value='[data_banjir.csv].[Kode Identitas Bencana]' />
+          <map key='[Lainnya(%)]' value='[data_sampah_merged.csv].[Lainnya(%)]' />
+          <map key='[Logam(%)]' value='[data_sampah_merged.csv].[Logam(%)]' />
+          <map key='[Meninggal]' value='[data_banjir.csv].[Meninggal]' />
+          <map key='[Penyebab]' value='[data_banjir.csv].[Penyebab]' />
+          <map key='[Plastik(%)]' value='[data_sampah_merged.csv].[Plastik(%)]' />
+          <map key='[Provinsi (data_banjir.csv)]' value='[data_banjir.csv].[Provinsi]' />
+          <map key='[Provinsi]' value='[data_sampah_merged.csv].[Provinsi]' />
+          <map key='[Rumah Rusak]' value='[data_banjir.csv].[Rumah Rusak]' />
+          <map key='[Rumah Terendam]' value='[data_banjir.csv].[Rumah Terendam]' />
+          <map key='[Sampah masuk (ton/tahun)]' value='[data_sampah_merged.csv].[Sampah masuk (ton/tahun)]' />
+          <map key='[Sampah terkelola (ton/tahun)]' value='[data_sampah_merged.csv].[Sampah terkelola (ton/tahun)]' />
+          <map key='[Sisa Makanan (%)]' value='[data_sampah_merged.csv].[Sisa Makanan (%)]' />
+          <map key='[Tahun]' value='[data_sampah_merged.csv].[Tahun]' />
+          <map key='[Tanggal Kejadian]' value='[data_banjir.csv].[Tanggal Kejadian]' />
+          <map key='[Terluka]' value='[data_banjir.csv].[Terluka]' />
+          <map key='[Timbulan Sampah Harian (Ton)]' value='[data_sampah_merged.csv].[Timbulan Sampah Harian (Ton)]' />
+          <map key='[Timbulan Sampah Tahunan (Ton)]' value='[data_sampah_merged.csv].[Timbulan Sampah Tahunan (Ton)]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provinsi</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Provinsi]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Provinsi</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tahun</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tahun]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Tahun</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timbulan Sampah Harian (Ton)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Timbulan Sampah Harian (Ton)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Timbulan Sampah Harian (Ton)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timbulan Sampah Tahunan (Ton)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Timbulan Sampah Tahunan (Ton)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Timbulan Sampah Tahunan (Ton)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sampah masuk (ton/tahun)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sampah masuk (ton/tahun)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Sampah masuk (ton/tahun)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sampah terkelola (ton/tahun)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sampah terkelola (ton/tahun)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Sampah terkelola (ton/tahun)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Pakan Ternak</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Pakan Ternak]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Pakan Ternak</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Kompos</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Kompos]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Kompos</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Daur Ulang</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Daur Ulang]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Daur Ulang</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Up-cycle</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Up-cycle]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Up-cycle</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sisa Makanan (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sisa Makanan (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Sisa Makanan (%)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kayu-Ranting (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kayu-Ranting (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kayu-Ranting (%)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kertas-Karton (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kertas-Karton (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kertas-Karton (%)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plastik(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Plastik(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Plastik(%)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Logam(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Logam(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Logam(%)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kain(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kain(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kain(%)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Karet- Kulit (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Karet- Kulit (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Karet- Kulit (%)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kaca(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kaca(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kaca(%)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lainnya(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lainnya(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Lainnya(%)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kode Identitas Bencana</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kode Identitas Bencana]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Kode Identitas Bencana</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID Kabupaten</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID Kabupaten]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>ID Kabupaten</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tanggal Kejadian</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Tanggal Kejadian]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Tanggal Kejadian</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kejadian</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kejadian]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Kejadian</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kabupaten</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kabupaten]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Kabupaten</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provinsi</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Provinsi (data_banjir.csv)]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Provinsi</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penyebab</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Penyebab]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Penyebab</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meninggal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Meninggal]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Meninggal</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hilang</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hilang]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Hilang</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terluka</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terluka]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Terluka</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rumah Rusak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rumah Rusak]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Rumah Rusak</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rumah Terendam</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rumah Terendam]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Rumah Terendam</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fasum Rusak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fasum Rusak]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Fasum Rusak</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='real' name='[Calculation_6608891723900391428]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='SUM([federated.0lxmm2y01j3sll16ha8170mvowmn].[Timbulan Sampah Tahunan (Ton)]) - SUM([Sampah terkelola (ton/tahun)])' />
+      </column>
+      <column datatype='integer' name='[ID Kabupaten]' role='dimension' type='ordinal' />
+      <column caption='Provinsi (data banjir.csv)' datatype='string' name='[Provinsi (data_banjir.csv)]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='data_banjir.csv' datatype='table' name='[__tableau_internal_object_id__].[data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='data_sampah_merged.csv' datatype='table' name='[__tableau_internal_object_id__].[data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='federated.0lxmm2y01j3sll16ha8170mvowmn'>
+        <column datatype='real' name='[Timbulan Sampah Tahunan (Ton)]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='data_banjir.csv' id='data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828'>
+            <properties context=''>
+              <relation connection='textscan.0wgevux1ujz6lh1b775hr108v26f' name='data_banjir.csv' table='[data_banjir#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Kode Identitas Bencana' ordinal='0' />
+                  <column datatype='integer' name='ID Kabupaten' ordinal='1' />
+                  <column datatype='date' name='Tanggal Kejadian' ordinal='2' />
+                  <column datatype='string' name='Kejadian' ordinal='3' />
+                  <column datatype='string' name='Kabupaten' ordinal='4' />
+                  <column datatype='string' name='Provinsi' ordinal='5' />
+                  <column datatype='string' name='Penyebab' ordinal='6' />
+                  <column datatype='integer' name='Meninggal' ordinal='7' />
+                  <column datatype='integer' name='Hilang' ordinal='8' />
+                  <column datatype='integer' name='Terluka' ordinal='9' />
+                  <column datatype='integer' name='Rumah Rusak' ordinal='10' />
+                  <column datatype='integer' name='Rumah Terendam' ordinal='11' />
+                  <column datatype='integer' name='Fasum Rusak' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='data_sampah_merged.csv' id='data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85'>
+            <properties context=''>
+              <relation connection='textscan.0wgevux1ujz6lh1b775hr108v26f' name='data_sampah_merged.csv' table='[data_sampah_merged#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Provinsi' ordinal='1' />
+                  <column datatype='integer' name='Tahun' ordinal='2' />
+                  <column datatype='real' name='Timbulan Sampah Harian (Ton)' ordinal='3' />
+                  <column datatype='real' name='Timbulan Sampah Tahunan (Ton)' ordinal='4' />
+                  <column datatype='real' name='Sampah masuk (ton/tahun)' ordinal='5' />
+                  <column datatype='real' name='Sampah terkelola (ton/tahun)' ordinal='6' />
+                  <column datatype='real' name='Bahan baku Pakan Ternak' ordinal='7' />
+                  <column datatype='real' name='Bahan baku Kompos' ordinal='8' />
+                  <column datatype='real' name='Bahan baku Daur Ulang' ordinal='9' />
+                  <column datatype='real' name='Bahan baku Up-cycle' ordinal='10' />
+                  <column datatype='real' name='Sisa Makanan (%)' ordinal='11' />
+                  <column datatype='real' name='Kayu-Ranting (%)' ordinal='12' />
+                  <column datatype='real' name='Kertas-Karton (%)' ordinal='13' />
+                  <column datatype='real' name='Plastik(%)' ordinal='14' />
+                  <column datatype='real' name='Logam(%)' ordinal='15' />
+                  <column datatype='real' name='Kain(%)' ordinal='16' />
+                  <column datatype='real' name='Karet- Kulit (%)' ordinal='17' />
+                  <column datatype='real' name='Kaca(%)' ordinal='18' />
+                  <column datatype='real' name='Lainnya(%)' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[Provinsi]' />
+                <expression op='[Provinsi (data_banjir.csv)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[Tahun]' />
+                <expression _.fcp.RelationshipCalculations.false...op='[YEAR(Tanggal Kejadian)]' _.fcp.RelationshipCalculations.true...op='YEAR([Tanggal Kejadian])' />
+              </expression>
+            </expression>
+            <first-end-point object-id='data_sampah_merged.csv_7D08B7F355F544AE839BC6F4E6A7BB85' />
+            <second-end-point object-id='data_banjir.csv_9ED3B016830A4E84AE5D7F98DD0D1828' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='data_deforestasi' inline='true' name='federated.1jeuofa190n4l01a71mra1waxp7l' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_deforestasi' name='textscan.0k7dwux0ilrgvr1114h9d1cejtzd'>
+            <connection class='textscan' directory='/Users/trista/Documents/GitHub/reswaratrista/DAD-Final_PlatL/cleaned_dataset' filename='data_deforestasi.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+      </connection>
+      <aliases enabled='yes' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph />
+    </datasource>
+    <datasource caption='data_banjir+' inline='true' name='federated.0lxmm2y01j3sll16ha8170mvowmn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_banjir' name='textscan.16fcv3j098hk7b159peqo1h8duqr'>
+            <connection class='textscan' directory='/Users/trista/Documents/GitHub/reswaratrista/DAD-Final_PlatL/cleaned_dataset' filename='data_banjir.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='data_deforestasi' name='textscan.0mgizf707zhxo311mmuno169xfzt'>
+            <connection class='textscan' directory='/Users/trista/Documents/GitHub/reswaratrista/DAD-Final_PlatL/cleaned_dataset' filename='data_deforestasi.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.16fcv3j098hk7b159peqo1h8duqr' name='data_banjir.csv' table='[data_banjir#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Kode Identitas Bencana' ordinal='0' />
+            <column datatype='integer' name='ID Kabupaten' ordinal='1' />
+            <column datatype='date' name='Tanggal Kejadian' ordinal='2' />
+            <column datatype='string' name='Kejadian' ordinal='3' />
+            <column datatype='string' name='Kabupaten' ordinal='4' />
+            <column datatype='string' name='Provinsi' ordinal='5' />
+            <column datatype='string' name='Penyebab' ordinal='6' />
+            <column datatype='integer' name='Meninggal' ordinal='7' />
+            <column datatype='integer' name='Hilang' ordinal='8' />
+            <column datatype='integer' name='Terluka' ordinal='9' />
+            <column datatype='integer' name='Rumah Rusak' ordinal='10' />
+            <column datatype='integer' name='Rumah Terendam' ordinal='11' />
+            <column datatype='integer' name='Fasum Rusak' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.16fcv3j098hk7b159peqo1h8duqr' name='data_banjir.csv' table='[data_banjir#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Kode Identitas Bencana' ordinal='0' />
+              <column datatype='integer' name='ID Kabupaten' ordinal='1' />
+              <column datatype='date' name='Tanggal Kejadian' ordinal='2' />
+              <column datatype='string' name='Kejadian' ordinal='3' />
+              <column datatype='string' name='Kabupaten' ordinal='4' />
+              <column datatype='string' name='Provinsi' ordinal='5' />
+              <column datatype='string' name='Penyebab' ordinal='6' />
+              <column datatype='integer' name='Meninggal' ordinal='7' />
+              <column datatype='integer' name='Hilang' ordinal='8' />
+              <column datatype='integer' name='Terluka' ordinal='9' />
+              <column datatype='integer' name='Rumah Rusak' ordinal='10' />
+              <column datatype='integer' name='Rumah Terendam' ordinal='11' />
+              <column datatype='integer' name='Fasum Rusak' ordinal='12' />
+            </columns>
+          </relation>
+          <relation connection='textscan.16fcv3j098hk7b159peqo1h8duqr' name='data_deforestasi.csv' table='[data_deforestasi#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='subnational1' ordinal='0' />
+              <column datatype='real' name='threshold' ordinal='1' />
+              <column datatype='real' name='area_ha' ordinal='2' />
+              <column datatype='real' name='extent_2000_ha' ordinal='3' />
+              <column datatype='real' name='extent_2010_ha' ordinal='4' />
+              <column datatype='real' name='gain_2000-2020_ha' ordinal='5' />
+              <column datatype='real' name='tc_loss_ha_2001' ordinal='6' />
+              <column datatype='real' name='tc_loss_ha_2002' ordinal='7' />
+              <column datatype='real' name='tc_loss_ha_2003' ordinal='8' />
+              <column datatype='real' name='tc_loss_ha_2004' ordinal='9' />
+              <column datatype='real' name='tc_loss_ha_2005' ordinal='10' />
+              <column datatype='real' name='tc_loss_ha_2006' ordinal='11' />
+              <column datatype='real' name='tc_loss_ha_2007' ordinal='12' />
+              <column datatype='real' name='tc_loss_ha_2008' ordinal='13' />
+              <column datatype='real' name='tc_loss_ha_2009' ordinal='14' />
+              <column datatype='real' name='tc_loss_ha_2010' ordinal='15' />
+              <column datatype='real' name='tc_loss_ha_2011' ordinal='16' />
+              <column datatype='real' name='tc_loss_ha_2012' ordinal='17' />
+              <column datatype='real' name='tc_loss_ha_2013' ordinal='18' />
+              <column datatype='real' name='tc_loss_ha_2014' ordinal='19' />
+              <column datatype='real' name='tc_loss_ha_2015' ordinal='20' />
+              <column datatype='real' name='tc_loss_ha_2016' ordinal='21' />
+              <column datatype='real' name='tc_loss_ha_2017' ordinal='22' />
+              <column datatype='real' name='tc_loss_ha_2018' ordinal='23' />
+              <column datatype='real' name='tc_loss_ha_2019' ordinal='24' />
+              <column datatype='real' name='tc_loss_ha_2020' ordinal='25' />
+              <column datatype='real' name='tc_loss_ha_2021' ordinal='26' />
+              <column datatype='real' name='tc_loss_ha_2022' ordinal='27' />
+              <column datatype='real' name='avg_tc_loss_2018-2022' ordinal='28' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0mgizf707zhxo311mmuno169xfzt' name='data_sampah_merged.csv' table='[data_sampah_merged#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Provinsi' ordinal='1' />
+              <column datatype='integer' name='Tahun' ordinal='2' />
+              <column datatype='real' name='Timbulan Sampah Harian (Ton)' ordinal='3' />
+              <column datatype='real' name='Timbulan Sampah Tahunan (Ton)' ordinal='4' />
+              <column datatype='real' name='Sampah masuk (ton/tahun)' ordinal='5' />
+              <column datatype='real' name='Sampah terkelola (ton/tahun)' ordinal='6' />
+              <column datatype='real' name='Bahan baku Pakan Ternak' ordinal='7' />
+              <column datatype='real' name='Bahan baku Kompos' ordinal='8' />
+              <column datatype='real' name='Bahan baku Daur Ulang' ordinal='9' />
+              <column datatype='real' name='Bahan baku Up-cycle' ordinal='10' />
+              <column datatype='real' name='Sisa Makanan (%)' ordinal='11' />
+              <column datatype='real' name='Kayu-Ranting (%)' ordinal='12' />
+              <column datatype='real' name='Kertas-Karton (%)' ordinal='13' />
+              <column datatype='real' name='Plastik(%)' ordinal='14' />
+              <column datatype='real' name='Logam(%)' ordinal='15' />
+              <column datatype='real' name='Kain(%)' ordinal='16' />
+              <column datatype='real' name='Karet- Kulit (%)' ordinal='17' />
+              <column datatype='real' name='Kaca(%)' ordinal='18' />
+              <column datatype='real' name='Lainnya(%)' ordinal='19' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Bahan baku Daur Ulang]' value='[data_sampah_merged.csv].[Bahan baku Daur Ulang]' />
+          <map key='[Bahan baku Kompos]' value='[data_sampah_merged.csv].[Bahan baku Kompos]' />
+          <map key='[Bahan baku Pakan Ternak]' value='[data_sampah_merged.csv].[Bahan baku Pakan Ternak]' />
+          <map key='[Bahan baku Up-cycle]' value='[data_sampah_merged.csv].[Bahan baku Up-cycle]' />
+          <map key='[F1]' value='[data_sampah_merged.csv].[F1]' />
+          <map key='[Fasum Rusak]' value='[data_banjir.csv].[Fasum Rusak]' />
+          <map key='[Hilang]' value='[data_banjir.csv].[Hilang]' />
+          <map key='[ID Kabupaten]' value='[data_banjir.csv].[ID Kabupaten]' />
+          <map key='[Kabupaten]' value='[data_banjir.csv].[Kabupaten]' />
+          <map key='[Kaca(%)]' value='[data_sampah_merged.csv].[Kaca(%)]' />
+          <map key='[Kain(%)]' value='[data_sampah_merged.csv].[Kain(%)]' />
+          <map key='[Karet- Kulit (%)]' value='[data_sampah_merged.csv].[Karet- Kulit (%)]' />
+          <map key='[Kayu-Ranting (%)]' value='[data_sampah_merged.csv].[Kayu-Ranting (%)]' />
+          <map key='[Kejadian]' value='[data_banjir.csv].[Kejadian]' />
+          <map key='[Kertas-Karton (%)]' value='[data_sampah_merged.csv].[Kertas-Karton (%)]' />
+          <map key='[Kode Identitas Bencana]' value='[data_banjir.csv].[Kode Identitas Bencana]' />
+          <map key='[Lainnya(%)]' value='[data_sampah_merged.csv].[Lainnya(%)]' />
+          <map key='[Logam(%)]' value='[data_sampah_merged.csv].[Logam(%)]' />
+          <map key='[Meninggal]' value='[data_banjir.csv].[Meninggal]' />
+          <map key='[Penyebab]' value='[data_banjir.csv].[Penyebab]' />
+          <map key='[Plastik(%)]' value='[data_sampah_merged.csv].[Plastik(%)]' />
+          <map key='[Provinsi (data_sampah_merged.csv)]' value='[data_sampah_merged.csv].[Provinsi]' />
+          <map key='[Provinsi]' value='[data_banjir.csv].[Provinsi]' />
+          <map key='[Rumah Rusak]' value='[data_banjir.csv].[Rumah Rusak]' />
+          <map key='[Rumah Terendam]' value='[data_banjir.csv].[Rumah Terendam]' />
+          <map key='[Sampah masuk (ton/tahun)]' value='[data_sampah_merged.csv].[Sampah masuk (ton/tahun)]' />
+          <map key='[Sampah terkelola (ton/tahun)]' value='[data_sampah_merged.csv].[Sampah terkelola (ton/tahun)]' />
+          <map key='[Sisa Makanan (%)]' value='[data_sampah_merged.csv].[Sisa Makanan (%)]' />
+          <map key='[Tahun]' value='[data_sampah_merged.csv].[Tahun]' />
+          <map key='[Tanggal Kejadian]' value='[data_banjir.csv].[Tanggal Kejadian]' />
+          <map key='[Terluka]' value='[data_banjir.csv].[Terluka]' />
+          <map key='[Timbulan Sampah Harian (Ton)]' value='[data_sampah_merged.csv].[Timbulan Sampah Harian (Ton)]' />
+          <map key='[Timbulan Sampah Tahunan (Ton)]' value='[data_sampah_merged.csv].[Timbulan Sampah Tahunan (Ton)]' />
+          <map key='[area_ha]' value='[data_deforestasi.csv].[area_ha]' />
+          <map key='[avg_tc_loss_2018-2022]' value='[data_deforestasi.csv].[avg_tc_loss_2018-2022]' />
+          <map key='[extent_2000_ha]' value='[data_deforestasi.csv].[extent_2000_ha]' />
+          <map key='[extent_2010_ha]' value='[data_deforestasi.csv].[extent_2010_ha]' />
+          <map key='[gain_2000-2020_ha]' value='[data_deforestasi.csv].[gain_2000-2020_ha]' />
+          <map key='[subnational1]' value='[data_deforestasi.csv].[subnational1]' />
+          <map key='[tc_loss_ha_2001]' value='[data_deforestasi.csv].[tc_loss_ha_2001]' />
+          <map key='[tc_loss_ha_2002]' value='[data_deforestasi.csv].[tc_loss_ha_2002]' />
+          <map key='[tc_loss_ha_2003]' value='[data_deforestasi.csv].[tc_loss_ha_2003]' />
+          <map key='[tc_loss_ha_2004]' value='[data_deforestasi.csv].[tc_loss_ha_2004]' />
+          <map key='[tc_loss_ha_2005]' value='[data_deforestasi.csv].[tc_loss_ha_2005]' />
+          <map key='[tc_loss_ha_2006]' value='[data_deforestasi.csv].[tc_loss_ha_2006]' />
+          <map key='[tc_loss_ha_2007]' value='[data_deforestasi.csv].[tc_loss_ha_2007]' />
+          <map key='[tc_loss_ha_2008]' value='[data_deforestasi.csv].[tc_loss_ha_2008]' />
+          <map key='[tc_loss_ha_2009]' value='[data_deforestasi.csv].[tc_loss_ha_2009]' />
+          <map key='[tc_loss_ha_2010]' value='[data_deforestasi.csv].[tc_loss_ha_2010]' />
+          <map key='[tc_loss_ha_2011]' value='[data_deforestasi.csv].[tc_loss_ha_2011]' />
+          <map key='[tc_loss_ha_2012]' value='[data_deforestasi.csv].[tc_loss_ha_2012]' />
+          <map key='[tc_loss_ha_2013]' value='[data_deforestasi.csv].[tc_loss_ha_2013]' />
+          <map key='[tc_loss_ha_2014]' value='[data_deforestasi.csv].[tc_loss_ha_2014]' />
+          <map key='[tc_loss_ha_2015]' value='[data_deforestasi.csv].[tc_loss_ha_2015]' />
+          <map key='[tc_loss_ha_2016]' value='[data_deforestasi.csv].[tc_loss_ha_2016]' />
+          <map key='[tc_loss_ha_2017]' value='[data_deforestasi.csv].[tc_loss_ha_2017]' />
+          <map key='[tc_loss_ha_2018]' value='[data_deforestasi.csv].[tc_loss_ha_2018]' />
+          <map key='[tc_loss_ha_2019]' value='[data_deforestasi.csv].[tc_loss_ha_2019]' />
+          <map key='[tc_loss_ha_2020]' value='[data_deforestasi.csv].[tc_loss_ha_2020]' />
+          <map key='[tc_loss_ha_2021]' value='[data_deforestasi.csv].[tc_loss_ha_2021]' />
+          <map key='[tc_loss_ha_2022]' value='[data_deforestasi.csv].[tc_loss_ha_2022]' />
+          <map key='[threshold]' value='[data_deforestasi.csv].[threshold]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kode Identitas Bencana</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kode Identitas Bencana]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Kode Identitas Bencana</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID Kabupaten</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID Kabupaten]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>ID Kabupaten</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tanggal Kejadian</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Tanggal Kejadian]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Tanggal Kejadian</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kejadian</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kejadian]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Kejadian</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kabupaten</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kabupaten]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Kabupaten</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provinsi</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Provinsi]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Provinsi</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penyebab</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Penyebab]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Penyebab</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meninggal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Meninggal]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Meninggal</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hilang</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hilang]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Hilang</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Terluka</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Terluka]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Terluka</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rumah Rusak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rumah Rusak]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Rumah Rusak</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rumah Terendam</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rumah Terendam]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Rumah Terendam</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fasum Rusak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fasum Rusak]</local-name>
+            <parent-name>[data_banjir.csv]</parent-name>
+            <remote-alias>Fasum Rusak</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subnational1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subnational1]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>subnational1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>threshold</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[threshold]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>threshold</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[area_ha]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>area_ha</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>extent_2000_ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[extent_2000_ha]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>extent_2000_ha</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>extent_2010_ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[extent_2010_ha]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>extent_2010_ha</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain_2000-2020_ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gain_2000-2020_ha]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>gain_2000-2020_ha</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2001</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2001]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2001</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2002</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2002]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2002</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2003</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2003]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2003</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2004</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2004]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2004</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2005]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2005</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2006]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2006</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2007]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2007</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2008]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2008</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2009]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2009</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2010]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2010</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2011]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2011</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2012]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2012</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2013]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2013</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2014]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2014</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2015]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2015</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2016]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2016</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2017]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2017</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2018]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2018</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2019</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2019]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2019</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2020]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2020</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2021]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2021</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tc_loss_ha_2022</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tc_loss_ha_2022]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>tc_loss_ha_2022</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_tc_loss_2018-2022</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_tc_loss_2018-2022]</local-name>
+            <parent-name>[data_deforestasi.csv]</parent-name>
+            <remote-alias>avg_tc_loss_2018-2022</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provinsi</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Provinsi (data_sampah_merged.csv)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Provinsi</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tahun</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tahun]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Tahun</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timbulan Sampah Harian (Ton)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Timbulan Sampah Harian (Ton)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Timbulan Sampah Harian (Ton)</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timbulan Sampah Tahunan (Ton)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Timbulan Sampah Tahunan (Ton)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Timbulan Sampah Tahunan (Ton)</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sampah masuk (ton/tahun)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sampah masuk (ton/tahun)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Sampah masuk (ton/tahun)</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sampah terkelola (ton/tahun)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sampah terkelola (ton/tahun)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Sampah terkelola (ton/tahun)</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Pakan Ternak</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Pakan Ternak]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Pakan Ternak</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Kompos</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Kompos]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Kompos</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Daur Ulang</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Daur Ulang]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Daur Ulang</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bahan baku Up-cycle</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bahan baku Up-cycle]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Bahan baku Up-cycle</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sisa Makanan (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sisa Makanan (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Sisa Makanan (%)</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kayu-Ranting (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kayu-Ranting (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kayu-Ranting (%)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kertas-Karton (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kertas-Karton (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kertas-Karton (%)</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plastik(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Plastik(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Plastik(%)</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Logam(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Logam(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Logam(%)</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kain(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kain(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kain(%)</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Karet- Kulit (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Karet- Kulit (%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Karet- Kulit (%)</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kaca(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kaca(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Kaca(%)</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lainnya(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lainnya(%)]</local-name>
+            <parent-name>[data_sampah_merged.csv]</parent-name>
+            <remote-alias>Lainnya(%)</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='real' name='[Calculation_6608891723735298048]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([avg_tc_loss_2018-2022])' />
+      </column>
+      <column datatype='integer' name='[ID Kabupaten]' role='dimension' type='ordinal' />
+      <column caption='Provinsi (data sampah merged.csv)' datatype='string' name='[Provinsi (data_sampah_merged.csv)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Provinsi (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Provinsi]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Banten&quot;'>
+            <value>&quot;Banten&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Provinsi]' role='dimension' type='nominal' />
+      <column caption='Tahun1' datatype='integer' name='[Tahun]' role='measure' type='quantitative' />
+      <column datatype='date' name='[Tanggal Kejadian]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[Timbulan Sampah Tahunan (Ton)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='data_banjir.csv' datatype='table' name='[__tableau_internal_object_id__].[data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='data_deforestasi.csv' datatype='table' name='[__tableau_internal_object_id__].[data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='data_sampah_merged.csv' datatype='table' name='[__tableau_internal_object_id__].[data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B]' role='measure' type='quantitative' />
+      <column caption='Area Ha' datatype='real' name='[area_ha]' role='measure' type='quantitative' />
+      <column caption='Avg Tc Loss 2018-2022' datatype='real' name='[avg_tc_loss_2018-2022]' role='measure' type='quantitative' />
+      <column caption='Extent 2000 Ha' datatype='real' name='[extent_2000_ha]' role='measure' type='quantitative' />
+      <column caption='Extent 2010 Ha' datatype='real' name='[extent_2010_ha]' role='measure' type='quantitative' />
+      <column caption='Gain 2000-2020 Ha' datatype='real' name='[gain_2000-2020_ha]' role='measure' type='quantitative' />
+      <column caption='Subnational1' datatype='string' name='[subnational1]' role='dimension' type='nominal' />
+      <column caption='Tc Loss Ha 2001' datatype='real' name='[tc_loss_ha_2001]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2002' datatype='real' name='[tc_loss_ha_2002]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2003' datatype='real' name='[tc_loss_ha_2003]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2004' datatype='real' name='[tc_loss_ha_2004]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2005' datatype='real' name='[tc_loss_ha_2005]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2006' datatype='real' name='[tc_loss_ha_2006]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2007' datatype='real' name='[tc_loss_ha_2007]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2008' datatype='real' name='[tc_loss_ha_2008]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2009' datatype='real' name='[tc_loss_ha_2009]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2010' datatype='real' name='[tc_loss_ha_2010]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2011' datatype='real' name='[tc_loss_ha_2011]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2012' datatype='real' name='[tc_loss_ha_2012]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2013' datatype='real' name='[tc_loss_ha_2013]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2014' datatype='real' name='[tc_loss_ha_2014]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2015' datatype='real' name='[tc_loss_ha_2015]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2016' datatype='real' name='[tc_loss_ha_2016]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2017' datatype='real' name='[tc_loss_ha_2017]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2018' datatype='real' name='[tc_loss_ha_2018]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2019' datatype='real' name='[tc_loss_ha_2019]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2020' datatype='real' name='[tc_loss_ha_2020]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2021' datatype='real' name='[tc_loss_ha_2021]' role='measure' type='quantitative' />
+      <column caption='Tc Loss Ha 2022' datatype='real' name='[tc_loss_ha_2022]' role='measure' type='quantitative' />
+      <column caption='Threshold' datatype='real' name='[threshold]' role='measure' type='quantitative' />
+      <column-instance column='[Timbulan Sampah Tahunan (Ton)]' derivation='Attribute' name='[attr:Timbulan Sampah Tahunan (Ton):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Timbulan Sampah Tahunan (Ton)]' derivation='Avg' name='[avg:Timbulan Sampah Tahunan (Ton):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[avg_tc_loss_2018-2022]' derivation='Avg' name='[avg:avg_tc_loss_2018-2022:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tahun]' derivation='None' name='[none:Tahun:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Timbulan Sampah Tahunan (Ton)]' derivation='None' name='[none:Timbulan Sampah Tahunan (Ton):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[avg_tc_loss_2018-2022]' derivation='None' name='[none:avg_tc_loss_2018-2022:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Timbulan Sampah Tahunan (Ton)]' derivation='Sum' name='[sum:Timbulan Sampah Tahunan (Ton):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[avg_tc_loss_2018-2022]' derivation='Sum' name='[sum:avg_tc_loss_2018-2022:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tanggal Kejadian]' derivation='Month-Trunc' name='[tmn:Tanggal Kejadian:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (MONTH(Tanggal Kejadian))' hidden='true' name='[Action (MONTH(Tanggal Kejadian))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tmn:Tanggal Kejadian:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Tahun)' hidden='true' name='[Action (Tahun)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Tahun:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn].[none:avg_tc_loss_2018-2022:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn].[avg:avg_tc_loss_2018-2022:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn].[avg:Timbulan Sampah Tahunan (Ton):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:avg_tc_loss_2018-2022:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn].[attr:Timbulan Sampah Tahunan (Ton):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn].[none:Timbulan Sampah Tahunan (Ton):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:Timbulan Sampah Tahunan (Ton):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='data_banjir.csv' id='data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98'>
+            <properties context=''>
+              <relation connection='textscan.16fcv3j098hk7b159peqo1h8duqr' name='data_banjir.csv' table='[data_banjir#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Kode Identitas Bencana' ordinal='0' />
+                  <column datatype='integer' name='ID Kabupaten' ordinal='1' />
+                  <column datatype='date' name='Tanggal Kejadian' ordinal='2' />
+                  <column datatype='string' name='Kejadian' ordinal='3' />
+                  <column datatype='string' name='Kabupaten' ordinal='4' />
+                  <column datatype='string' name='Provinsi' ordinal='5' />
+                  <column datatype='string' name='Penyebab' ordinal='6' />
+                  <column datatype='integer' name='Meninggal' ordinal='7' />
+                  <column datatype='integer' name='Hilang' ordinal='8' />
+                  <column datatype='integer' name='Terluka' ordinal='9' />
+                  <column datatype='integer' name='Rumah Rusak' ordinal='10' />
+                  <column datatype='integer' name='Rumah Terendam' ordinal='11' />
+                  <column datatype='integer' name='Fasum Rusak' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='data_deforestasi.csv' id='data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985'>
+            <properties context=''>
+              <relation connection='textscan.16fcv3j098hk7b159peqo1h8duqr' name='data_deforestasi.csv' table='[data_deforestasi#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='subnational1' ordinal='0' />
+                  <column datatype='real' name='threshold' ordinal='1' />
+                  <column datatype='real' name='area_ha' ordinal='2' />
+                  <column datatype='real' name='extent_2000_ha' ordinal='3' />
+                  <column datatype='real' name='extent_2010_ha' ordinal='4' />
+                  <column datatype='real' name='gain_2000-2020_ha' ordinal='5' />
+                  <column datatype='real' name='tc_loss_ha_2001' ordinal='6' />
+                  <column datatype='real' name='tc_loss_ha_2002' ordinal='7' />
+                  <column datatype='real' name='tc_loss_ha_2003' ordinal='8' />
+                  <column datatype='real' name='tc_loss_ha_2004' ordinal='9' />
+                  <column datatype='real' name='tc_loss_ha_2005' ordinal='10' />
+                  <column datatype='real' name='tc_loss_ha_2006' ordinal='11' />
+                  <column datatype='real' name='tc_loss_ha_2007' ordinal='12' />
+                  <column datatype='real' name='tc_loss_ha_2008' ordinal='13' />
+                  <column datatype='real' name='tc_loss_ha_2009' ordinal='14' />
+                  <column datatype='real' name='tc_loss_ha_2010' ordinal='15' />
+                  <column datatype='real' name='tc_loss_ha_2011' ordinal='16' />
+                  <column datatype='real' name='tc_loss_ha_2012' ordinal='17' />
+                  <column datatype='real' name='tc_loss_ha_2013' ordinal='18' />
+                  <column datatype='real' name='tc_loss_ha_2014' ordinal='19' />
+                  <column datatype='real' name='tc_loss_ha_2015' ordinal='20' />
+                  <column datatype='real' name='tc_loss_ha_2016' ordinal='21' />
+                  <column datatype='real' name='tc_loss_ha_2017' ordinal='22' />
+                  <column datatype='real' name='tc_loss_ha_2018' ordinal='23' />
+                  <column datatype='real' name='tc_loss_ha_2019' ordinal='24' />
+                  <column datatype='real' name='tc_loss_ha_2020' ordinal='25' />
+                  <column datatype='real' name='tc_loss_ha_2021' ordinal='26' />
+                  <column datatype='real' name='tc_loss_ha_2022' ordinal='27' />
+                  <column datatype='real' name='avg_tc_loss_2018-2022' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='data_sampah_merged.csv' id='data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B'>
+            <properties context=''>
+              <relation connection='textscan.0mgizf707zhxo311mmuno169xfzt' name='data_sampah_merged.csv' table='[data_sampah_merged#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Provinsi' ordinal='1' />
+                  <column datatype='integer' name='Tahun' ordinal='2' />
+                  <column datatype='real' name='Timbulan Sampah Harian (Ton)' ordinal='3' />
+                  <column datatype='real' name='Timbulan Sampah Tahunan (Ton)' ordinal='4' />
+                  <column datatype='real' name='Sampah masuk (ton/tahun)' ordinal='5' />
+                  <column datatype='real' name='Sampah terkelola (ton/tahun)' ordinal='6' />
+                  <column datatype='real' name='Bahan baku Pakan Ternak' ordinal='7' />
+                  <column datatype='real' name='Bahan baku Kompos' ordinal='8' />
+                  <column datatype='real' name='Bahan baku Daur Ulang' ordinal='9' />
+                  <column datatype='real' name='Bahan baku Up-cycle' ordinal='10' />
+                  <column datatype='real' name='Sisa Makanan (%)' ordinal='11' />
+                  <column datatype='real' name='Kayu-Ranting (%)' ordinal='12' />
+                  <column datatype='real' name='Kertas-Karton (%)' ordinal='13' />
+                  <column datatype='real' name='Plastik(%)' ordinal='14' />
+                  <column datatype='real' name='Logam(%)' ordinal='15' />
+                  <column datatype='real' name='Kain(%)' ordinal='16' />
+                  <column datatype='real' name='Karet- Kulit (%)' ordinal='17' />
+                  <column datatype='real' name='Kaca(%)' ordinal='18' />
+                  <column datatype='real' name='Lainnya(%)' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Provinsi]' />
+              <expression op='[subnational1]' />
+            </expression>
+            <first-end-point object-id='data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98' />
+            <second-end-point object-id='data_deforestasi.csv_FE8B8B2C99D14FC39F313AFF6E17F985' />
+          </relationship>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[Provinsi]' />
+                <expression op='[Provinsi (data_sampah_merged.csv)]' />
+              </expression>
+              <expression op='='>
+                <expression _.fcp.RelationshipCalculations.false...op='[YEAR(Tanggal Kejadian)]' _.fcp.RelationshipCalculations.true...op='YEAR([Tanggal Kejadian])' />
+                <expression op='[Tahun]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='data_banjir.csv_78653C9B2C114A1E96B93AC77E020A98' />
+            <second-end-point object-id='data_sampah_merged.csv_B0F70A90AD284952822F698FC517E96B' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_3D881339619E4ABB9D4EC5D242814DB2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_820EB431175644A599064B1F3DCF89AA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_banjir+' name='federated.0lxmm2y01j3sll16ha8170mvowmn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lxmm2y01j3sll16ha8170mvowmn'>
+            <column caption='Tahun1' datatype='integer' name='[Tahun]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Tanggal Kejadian]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Timbulan Sampah Tahunan (Ton)]' role='measure' type='quantitative' />
+            <column caption='Avg Tc Loss 2018-2022' datatype='real' name='[avg_tc_loss_2018-2022]' role='measure' type='quantitative' />
+            <column-instance column='[Tahun]' derivation='None' name='[none:Tahun:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Timbulan Sampah Tahunan (Ton)]' derivation='Sum' name='[sum:Timbulan Sampah Tahunan (Ton):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[avg_tc_loss_2018-2022]' derivation='Sum' name='[sum:avg_tc_loss_2018-2022:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tanggal Kejadian]' derivation='Month-Trunc' name='[tmn:Tanggal Kejadian:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Tanggal Kejadian]' derivation='Month-Trunc' name='[tmn:Tanggal Kejadian:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tanggal Kejadian]' derivation='Year-Trunc' name='[tyr:Tanggal Kejadian:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[Action (Tahun)]'>
+            <groupfilter from='2018' function='range' level='[none:Tahun:ok]' to='2022' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:avg_tc_loss_2018-2022:qk]' included-values='in-range'>
+            <min>1438.2704545454549</min>
+            <max>74297.313408893926</max>
+          </filter>
+          <filter class='categorical' column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[tmn:Tanggal Kejadian:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:Tanggal Kejadian:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[tmn:Tanggal Kejadian:ok]' member='#2018-02-01 00:00:00#' />
+                <groupfilter function='member' level='[tmn:Tanggal Kejadian:ok]' member='#2018-03-01 00:00:00#' />
+                <groupfilter function='member' level='[tmn:Tanggal Kejadian:ok]' member='#2018-05-01 00:00:00#' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[tmn:Tanggal Kejadian:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:avg_tc_loss_2018-2022:qk]</column>
+            <column>[federated.0lxmm2y01j3sll16ha8170mvowmn].[tmn:Tanggal Kejadian:qk]</column>
+            <column>[federated.0lxmm2y01j3sll16ha8170mvowmn].[Action (Tahun)]</column>
+            <column>[federated.0lxmm2y01j3sll16ha8170mvowmn].[tmn:Tanggal Kejadian:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:Timbulan Sampah Tahunan (Ton):qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:avg_tc_loss_2018-2022:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:Timbulan Sampah Tahunan (Ton):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:avg_tc_loss_2018-2022:qk] + [federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:Timbulan Sampah Tahunan (Ton):qk])</rows>
+        <cols>[federated.0lxmm2y01j3sll16ha8170mvowmn].[tyr:Tanggal Kejadian:qk]</cols>
+      </table>
+      <simple-id uuid='{E8AD800D-CE55-430D-B084-168712F4DAB3}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Trash Each Year </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_banjir+' name='federated.0lxmm2y01j3sll16ha8170mvowmn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lxmm2y01j3sll16ha8170mvowmn'>
+            <column caption='Tahun1' datatype='integer' name='[Tahun]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Tanggal Kejadian]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Timbulan Sampah Tahunan (Ton)]' role='measure' type='quantitative' />
+            <column-instance column='[Timbulan Sampah Tahunan (Ton)]' derivation='Avg' name='[avg:Timbulan Sampah Tahunan (Ton):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tahun]' derivation='None' name='[none:Tahun:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Timbulan Sampah Tahunan (Ton)]' derivation='Sum' name='[sum:Timbulan Sampah Tahunan (Ton):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tanggal Kejadian]' derivation='Month-Trunc' name='[tmn:Tanggal Kejadian:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[Action (MONTH(Tanggal Kejadian))]'>
+            <groupfilter function='member' level='[tmn:Tanggal Kejadian:ok]' member='#2019-06-01 00:00:00#' user:ui-action-filter='[Action1_3D881339619E4ABB9D4EC5D242814DB2]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[none:Tahun:qk]' included-values='in-range'>
+            <min>2018</min>
+            <max>2022</max>
+          </filter>
+          <slices>
+            <column>[federated.0lxmm2y01j3sll16ha8170mvowmn].[none:Tahun:qk]</column>
+            <column>[federated.0lxmm2y01j3sll16ha8170mvowmn].[Action (MONTH(Tanggal Kejadian))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.0lxmm2y01j3sll16ha8170mvowmn].[sum:Timbulan Sampah Tahunan (Ton):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0lxmm2y01j3sll16ha8170mvowmn].[avg:Timbulan Sampah Tahunan (Ton):qk]</rows>
+        <cols>[federated.0lxmm2y01j3sll16ha8170mvowmn].[none:Tahun:qk]</cols>
+      </table>
+      <simple-id uuid='{786D8D83-0E5F-4963-8996-1AFEBF286208}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_sampah_merged+ (2)' name='federated.072446r0ycgrbs10bc94j0lclcos' />
+            <datasource caption='data_banjir+' name='federated.0lxmm2y01j3sll16ha8170mvowmn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.072446r0ycgrbs10bc94j0lclcos'>
+            <column caption='Calculation1' datatype='real' name='[Calculation_6608891723900391428]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='SUM([federated.0lxmm2y01j3sll16ha8170mvowmn].[Timbulan Sampah Tahunan (Ton)]) - SUM([Sampah terkelola (ton/tahun)])' />
+            </column>
+            <column datatype='string' name='[Provinsi]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Sampah masuk (ton/tahun)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sampah terkelola (ton/tahun)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tahun]' role='measure' type='quantitative' />
+            <column-instance column='[Provinsi]' derivation='None' name='[none:Provinsi:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Tahun]' derivation='None' name='[none:Tahun:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sampah masuk (ton/tahun)]' derivation='Sum' name='[sum:Sampah masuk (ton/tahun):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sampah terkelola (ton/tahun)]' derivation='Sum' name='[sum:Sampah terkelola (ton/tahun):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_6608891723900391428]' derivation='User' name='[usr:Calculation_6608891723900391428:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0lxmm2y01j3sll16ha8170mvowmn'>
+            <column datatype='real' name='[Timbulan Sampah Tahunan (Ton)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.072446r0ycgrbs10bc94j0lclcos].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.072446r0ycgrbs10bc94j0lclcos].[usr:Calculation_6608891723900391428:qk]&quot;' user:op='manual' />
+          </filter>
+          <slices>
+            <column>[federated.072446r0ycgrbs10bc94j0lclcos].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.072446r0ycgrbs10bc94j0lclcos].[sum:Sampah masuk (ton/tahun):qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.072446r0ycgrbs10bc94j0lclcos].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.072446r0ycgrbs10bc94j0lclcos].[sum:Sampah terkelola (ton/tahun):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.072446r0ycgrbs10bc94j0lclcos].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.072446r0ycgrbs10bc94j0lclcos].[sum:Sampah masuk (ton/tahun):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.072446r0ycgrbs10bc94j0lclcos].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.072446r0ycgrbs10bc94j0lclcos].[sum:Sampah terkelola (ton/tahun):qk] + [federated.072446r0ycgrbs10bc94j0lclcos].[sum:Sampah masuk (ton/tahun):qk])</rows>
+        <cols>([federated.072446r0ycgrbs10bc94j0lclcos].[none:Provinsi:nk] * [federated.072446r0ycgrbs10bc94j0lclcos].[none:Tahun:qk])</cols>
+      </table>
+      <simple-id uuid='{C7C6943E-83E4-4275-AB2B-34583754008D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='10' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000' />
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='49000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='50000'>
+          <zone h='49000' id='5' type-v2='layout-basic' w='82400' x='800' y='50000'>
+            <zone h='49000' id='3' name='Sheet 1' w='82400' x='800' y='50000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone fixed-size='160' h='49000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='50000'>
+            <zone h='8250' id='8' name='Sheet 1' pane-specification-id='3' param='[federated.0lxmm2y01j3sll16ha8170mvowmn].[:Measure Names]' type-v2='color' w='16000' x='83200' y='50000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+        </zone>
+        <zone h='38500' id='9' name='Sheet 2' w='36200' x='800' y='1000'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='4' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='38500' id='9' is-fixed='true' name='Sheet 2' w='36200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Sheet 1' w='82400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8250' id='8' name='Sheet 1' pane-specification-id='3' param='[federated.0lxmm2y01j3sll16ha8170mvowmn].[:Measure Names]' type-v2='color' w='16000' x='83200' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{121BE7DD-2B7B-4545-9762-784194AD373F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card param='[federated.0lxmm2y01j3sll16ha8170mvowmn].[Action (Tahun)]' type='filter' />
+            <card pane-specification-id='5' param='[federated.0lxmm2y01j3sll16ha8170mvowmn].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2ABAABA1-20F5-4390-9F70-F7482FE9B20F}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0lxmm2y01j3sll16ha8170mvowmn].[none:Tahun:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{53ED486C-36D7-426F-B565-C00A42CC61F6}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.072446r0ycgrbs10bc94j0lclcos].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{505CCE55-DDDB-4BCA-B406-2AB66E48D08C}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='10' />
+      <device-preview selected='Desktop' visible='true' />
+      <simple-id uuid='{9FD2224C-3477-4CC2-B6B3-90AD6AEFA351}' />
+    </window>
+  </windows>
+</workbook>
