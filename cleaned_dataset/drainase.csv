@@ -1,246 +1,220 @@
-,objectid,uid,creator,created,updater,updated,data_src,last_sync,koord_x,koord_y,nm_balai,tgl_inspeksi,kd_prov,provinsi,kab_kota,kecamatan,kel_desa,kd_kem,kd_unor,ko_in,foto,video,peta,kondisi,kl_dat_das,nm_dat_das,thn_data,nm_ws,nm_das,kd_dat_das,kd_ws,lokasi,sync_notes,shape,geometry
-0,17,6d569c94-ca7a-11eb-a0e3-0050568846de,,1623437703000,1969050552002121004,1649668588000,,1623441600000.0,115.298064,-8.596116,BPPW Bali,,36,Bali,,,,33,5,0,,,,,,,,,,,,,,,POINT (115.29806400000007 -8.596115999999938)
-1,18,6da5b98e-ca7a-11eb-a0e3-0050568846de,,1623437703000,TEST01,1629988541000,,1623441600000.0,,,BPPW Bangka Belitung,,19,Kepulauan Bangka Belitung,,Muntok,Teluk Rubiah,33,49,0,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2006,,,,,,,,
-2,19,6da5bb94-ca7a-11eb-a0e3-0050568846de,,1623437703000,,1628401843000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,,,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2007,,,,,,,,
-3,20,6da5bbee-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Pangkalan Baru,Batu Belubang,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2011,,,,,,,,
-4,21,6da5bc2a-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,,,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2010,,,,,,,,
-5,22,6da5bc5f-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Muntok,Muntok,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2011,,,,,,,,
-6,24,6da5bcc4-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Namang,Kurau,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2012,,,,,,,,
-7,25,6da5bcf8-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Muntok,Sungai Baru,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2013,,,,,,,,
-8,26,6da5bd27-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Muntok,Sungai Baru,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2014,,,,,,,,
-9,27,6da5bd56-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Parit Tiga,Parit Tiga,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2014,,,,,,,,
-10,28,6da5bd84-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Muntok,Belo Laut,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2017,,,,,,,,
-11,29,6da5bdb4-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,,,19,Kepulauan Bangka Belitung,,Parit Tiga,Sekar Biru,33,49,,,,,,INSTALASI AIR BUANGAN DOMESTIK,DRAINASE,2018,,,,,,,,
-12,30,6de154fc-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,BPPW Banten,,51,Banten,,,,33,5,0,,,,,,,,,,,,,,,
-13,31,6e864136-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,BPPW D.I. Yogyakarta,,34,DIY,,Gunung Kidul,Gunung Kidul,33,5,0,,,,0,0,Pembangunan Drainase Primer Kabupaten Gunung Kidul,0,,,,,,,,
-14,32,6ec07a6c-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,BPPW Gorontalo,,75,Gorontalo,,,,33,5,0,,,,,,,,,,,,,,,
-15,33,6f62136e-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1631806803000,,1623441600000.0,103.600639,-1.637028,BPPW Jambi,,15,Jambi,Jambi,Kota Baru,Suka Karya,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Jambi,,,,,,,admin updated by coord (16/09/2021),,POINT (103.60063900000006 -1.6370279999999298)
-16,34,6f62149d-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1631806803000,,1623441600000.0,103.584806,-1.649278,BPPW Jambi,,15,Jambi,Jambi,Alam Barajo,Mayang Mangurai,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Jambi,,,,,,,admin updated by coord (16/09/2021),,POINT (103.58480600000007 -1.6492779999999243)
-17,35,6f6214f3-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,BPPW Jambi,,15,Jambi,,Jambi,Jambi,33,5,0,,,,,,Pembangunan Drainase Primer Kota Jambi 1,,,,,,,,,
-18,36,6f62152b-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,BPPW Jambi,,15,Jambi,,Jambi,Jambi,33,5,0,,,,,,Pembangunan Drainase Primer Kota Jambi 2,,,,,,,,,
-19,37,6f621564-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,BPPW Jambi,,15,Jambi,,Muaro Jambi,Muaro Jambi,33,5,0,,,,,,Pembangunan Drainase Kab. Muaro Jambi 1,,,,,,,,,
-20,38,6f621598-ca7a-11eb-a0e3-0050568846de,,1623437704000,TEST01,1629988541000,,1623441600000.0,,,BPPW Jambi,,15,Jambi,,Muaro Jambi,Muaro Jambi,33,5,0,,,,,,Pembangunan Drainase Kab. Muaro Jambi 2,,,,,,,,,
-21,39,6f6215d0-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,,,0,,,,,0,0,0,,,,,,,,,,,,,,,
-22,40,6fb2cc34-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,,,32,Jawa Barat,,Pondok Gede,Pondok Gede,33,5,0,,,,,,Penanganan Drainase Lingkungan di Kawasan Kec. Pon,,,,,,,,,
-23,41,6fb2ccee-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,BPPW Jawa Barat,,32,Jawa Barat,,Jatibening,Jatibening,33,5,0,,,,,,Pembangunan Drainase Komplek TNI AL Bekasi Selatan,,,,,,,,,
-24,42,700214d5-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,BPPW Jawa Tengah,,33,Jawa Tengah,,Sleman,Sleman,33,5,0,,,,0,0,Pembangunan Drainase Kab. Sleman 2,0,,,,,,,,
-25,43,700215ae-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,BPPW Jawa Tengah,,33,Jawa Tengah,,Sleman,Sleman,33,5,0,,,,0,0,Pembangunan Drainase Primer Sleman,0,,,,,,,,
-26,44,700215f3-ca7a-11eb-a0e3-0050568846de,,1623437704000,,1628401843000,,1623441600000.0,,,BPPW Jawa Tengah,,33,Jawa Tengah,,,,33,5,0,,,,0,0,Pembangunan Drainase Lingkungan Kota Magelang,0,,,,,,,,
-27,73,70ad3302-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Kalimantan Barat,,61,Kalimantan Barat,,,,33,5,0,,,,,,,,,,,,,,,
-28,74,71014816-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Kalimantan Selatan,,63,Kalimantan Selatan,,,,33,5,0,,,,,,,,,,,,,,,
-29,75,71535467-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Kalimantan Tengah,,62,Kalimantan Tengah,,,,33,5,0,,,,,,,,,,,,,,,
-30,76,71a5c53d-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Kalimantan Timur,,64,Kalimantan Timur,,,,33,5,0,,,,,,,,,,,,,,,
-31,77,71ffcdf4-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Kalimantan Utara,,65,Kalimantan Utara,,Sesayap,"Jl. Perintis, Jl salmon, Jl Manunggal",33,5,0,,,,,,Pembangunan Drainase Lingkungan Kabupaten Tana Tid,,,,,,,,,
-32,78,71ffcf01-ca7a-11eb-a0e3-0050568846de,,1623437706000,TEST01,1629988541000,,1623441600000.0,,,BPPW Kalimantan Utara,,65,Kalimantan Utara,,Tanjung Selor Hilir,"Jalan Binjai, Jalan Ulin, Jalan Meranti dan Jalan ",33,5,0,,,,,,Pembangunan Drainase Lingkungan Kabupaten Bulungan,,,,,,,,,
-33,79,71ffcf4a-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1631806803000,,1623441600000.0,117.582039,3.330456,BPPW Kalimantan Utara,,65,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Tarakan,,,,,,,admin updated by coord (16/09/2021),,POINT (117.58203900000001 3.3304560000000265)
-34,80,71ffcf8b-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1631806803000,,1623441600000.0,117.0147,2.023011,BPPW Kalimantan Utara,,64,Kalimantan Timur,Berau,Segah,Batu Rajang,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Tarakan,,,,,,,admin updated by coord (16/09/2021),,POINT (117.01470000000006 2.0230110000000536)
-35,81,71ffcfc4-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1631806803000,,1623441600000.0,117.604814,3.304177,BPPW Kalimantan Utara,,65,Kalimantan Utara,Tarakan,Tarakan Tengah,Pamusian,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Tarakan,,,,,,,admin updated by coord (16/09/2021),,POINT (117.60481400000003 3.3041770000000383)
-36,82,71ffcffd-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1631806803000,,1623441600000.0,117.57363,3.33087,BPPW Kalimantan Utara,,65,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33,5,0,,,,,,Pembangunan Drainase Lingkungan Pulau Sebatik,,,,,,,admin updated by coord (16/09/2021),,POINT (117.5736300000001 3.3308700000000613)
-37,83,71ffd037-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1631806803000,,1623441600000.0,117.57363,3.33087,BPPW Kalimantan Utara,,65,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33,5,0,,,,,,Pembangunan Drainase Lingkungan Pulau Sebatik (Lan,,,,,,,admin updated by coord (16/09/2021),,POINT (117.5736300000001 3.3308700000000613)
-38,84,71ffd06d-ca7a-11eb-a0e3-0050568846de,,1623437706000,TEST01,1631806803000,,1623441600000.0,117.90519,4.15247,BPPW Kalimantan Utara,,65,Kalimantan Utara,Nunukan,Sebatik Utara,Pancang,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Tarakan,,,,,,,admin updated by coord (16/09/2021),,POINT (117.90519000000006 4.152470000000051)
-39,85,71ffd195-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1631806803000,,1623441600000.0,117.583591,3.339102,BPPW Kalimantan Utara,,65,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33,5,0,,,,,,Optimalisasi Drainase Lingkungan Kampung Tator,,,,,,,admin updated by coord (16/09/2021),,POINT (117.58359100000007 3.3391020000000253)
-40,86,71ffd1d2-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,,,0,,,,,,,,,,,,,,,,,,,,,,
-41,87,7261975f-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Kepulauan Riau,,21,Kepulauan Riau,,Tanjung Pinang,Tanjung Pinang,33,5,0,,,,,,Pembangunan Drainase Primer Kota Tanjung Pinang,,,,,,,,,
-42,88,72c1c643-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Lampung,,18,Lampung,,Lampung Selatan,Lampung Selatan,33,5,0,,,,,,Pembangunan Drainase Primer Kabupaten Lampung Sela,,,,,,,,,
-43,89,72c1c85c-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Lampung,,18,Lampung,,Tulang Bawang,Tulang Bawang,33,5,0,,,,,,Pembangunan Drainase Kab. Tulang Bawang 2,,,,,,,,,
-44,90,72c1c8b2-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Lampung,,18,Lampung,,Tulang Bawang,Tulang Bawang,33,5,0,,,,,,Pembangunan Drainase Kab. Tulang Bawang 1,,,,,,,,,
-45,91,72c1c8ed-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Lampung,,18,Lampung,,Pringsewu,Pringsewu,33,5,0,,,,,,Pembangunan Drainase Primer Kabupaten PringSewu,,,,,,,,,
-46,92,731b91c9-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Maluku,,81,Maluku,,,,33,5,0,,,,,,,,,,,,,,,
-47,93,7390f28a-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Nusa Tenggara Barat,,52,Nusa Tenggara Barat,,Kec. Pujut,Pujut,33,5,0,,,,,Drainase Lingkungan,PEMBANGUNAN DRAINASE PRIMER KAWASAN BANDARA INTERN,2021,,,,,,,,
-48,94,7390f3ab-ca7a-11eb-a0e3-0050568846de,,1623437706000,TEST01,1629988541000,,1623441600000.0,,,BPPW Nusa Tenggara Barat,,52,Nusa Tenggara Barat,,Kec. Cakranegara,,33,5,0,,,,,Drainase Lingkungan,Drainase Lingkungan Kawasan Kec. Cakranegara Kota ,2021,,,,,,,,
-49,95,7390f3f3-ca7a-11eb-a0e3-0050568846de,,1623437706000,,1628401843000,,1623441600000.0,,,BPPW Nusa Tenggara Barat,,52,Nusa Tenggara Barat,,Kec. Gunungsari ,,33,5,0,,,,,Drainase Lingkungan, Drainase Lingkungan Kawasan Kec. Gunungsari Kab. ,2021,,,,,,,,
-50,100,73d2a67c-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Nusa Tenggara Timur,,53,Nusa Tenggara Timur,,,,33,5,0,,,,,,,,,,,,,,,
-51,101,741fa53b-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Papua Barat,,94,Papua Barat,,,,33,5,0,,,,,,,,,,,,,,,
-52,102,741812ed-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Papua,,91,Papua,,,,33,5,0,,,,,,,,,,,,,,,
-53,103,74bbe2f6-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Riau,,14,Riau,,,,33,5,0,,,,,,,,,,,,,,,
-54,104,74ff625d-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Barat,,76,Sulawesi Barat,,,,33,5,0,,,,,,,,,,,,,,,
-55,105,754d0e0c-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Selatan,,73,Sulawesi Selatan,,,,33,5,0,,,,,,,,,,,,,,,
-56,106,759fc969-ca7a-11eb-a0e3-0050568846de,,1623437707000,TEST01,1631806803000,,1623441600000.0,120.750436,-1.393103,BPPW Sulawesi Tengah,,72,Sulawesi Tengah,Poso,Poso Kota,Gebang Rejo,33,5,0,,,,,,Pembangunan Drainase Primer Kota Poso,,,,,,,admin updated by coord (16/09/2021),,POINT (120.75043600000004 -1.3931029999999396)
-57,107,759fca67-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Tengah,,72,Sulawesi Tengah,,Kecamatan Parigi Utara,Desa Pangi,33,5,0,,,,,,Pembangunan Drainase Primer Kawasan Khusus Kabupat,,,,,,,,,
-58,108,759fcab3-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Tengah,,72,Sulawesi Tengah,,Kecamatan Palu Timur,Kelurahan Lolu Utara,33,5,0,,,,,,Pembangunan Saluran Drainase Primer Kecamatan Palu,,,,,,,,,
-59,109,759fcaec-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Tengah,,72,Sulawesi Tengah,,,,33,5,0,,,,,,Pembangunan Drainase Lingkungan,,,,,,,,,
-60,110,759fcb29-ca7a-11eb-a0e3-0050568846de,,1623437707000,TEST01,1631806803000,,1623441600000.0,120.820306,1.035944,BPPW Sulawesi Tengah,,72,Sulawesi Tengah,Toli-Toli,Baolan,Baru,33,5,0,,,,,,Pembangunan Saluran Drainase Primer Kabupaten Toli,,,,,,,admin updated by coord (16/09/2021),,POINT (120.82030600000007 1.035944000000029)
-61,111,75f670cb-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Tenggara,,74,Sulawesi Tenggara,,Kendari,Kendari,33,5,0,,,,,,Pembangunan Drainase Primer Kota Kendari 1,,,,,,,,,
-62,112,75f671af-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Tenggara,,74,Sulawesi Tenggara,,Kendari,Kendari,33,5,0,,,,,,Pembangunan Drainase Primer Kota Kendari 2,,,,,,,,,
-63,113,76396e66-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Utara,,71,Sulawesi Utara,,Bitung,Bitung,33,5,0,,,,,,Pembangunan Drainase Primer Kota Bitung,,,,,,,,,
-64,114,76396f21-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Utara,,74,Sulawesi Utara,,Baubau,Baubau,33,5,0,,,,,,Pembangunan Drainase Primer Kota Baubau 1,,,,,,,,,
-65,115,76396f67-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Utara,,74,Sulawesi Utara,,Baubau,Baubau,33,5,0,,,,,,Pembangunan Drainase Primer Kota Baubau 2,,,,,,,,,
-66,116,76396fa4-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Utara,,71,Sulawesi Utara,,Bitung,Bitung,33,5,0,,,,,,Pembangunan Drainase Kota Bitung 2,,,,,,,,,
-67,117,7639714f-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Utara,,71,Sulawesi Utara,,Minahasa Tenggara,Minahasa Tenggara,33,5,0,,,,,,Pembangunan Drainase Kab. Minahasa Tenggara,,,,,,,,,
-68,118,7639732f-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sulawesi Utara,,74,Sulawesi Utara,,,,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Kendari,,,,,,,,,
-69,119,768bb84f-ca7a-11eb-a0e3-0050568846de,,1623437707000,,1628401843000,,1623441600000.0,,,BPPW Sumatera Barat,,13,Sumatera Barat,,,,33,5,0,,,,,,,,,,,,,,,
-70,120,76d6a246-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1628401843000,,1623441600000.0,,,BPPW Sumatera Selatan,,16,Sumatera Selatan,,Seberang Ulu,Ulu,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kawasan Jakabaring,,,,,,,,,
-71,121,76d6a2fb-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1628401843000,,1623441600000.0,,,BPPW Sumatera Selatan,,16,Sumatera Selatan,,Seberang Ulu,Ulu,33,5,0,,,,,,Penanganan Sanitasi Kawasan Jakabaring Palembang,,,,,,,,,
-72,122,771b43a7-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1628401843000,,1623441600000.0,,,BPPW Sumatera Utara,,12,Sumatera Utara,,,,33,5,0,,,,,,,,,,,,,,,
-73,123,66d942b6-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,125.979964,-2.061733,BBPW Maluku Utara,,82,Maluku Utara,Kepulauan Sula,Sanana,Falahu,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Sanana,,,,,,,admin updated by coord (16/09/2021),,POINT (125.97996400000011 -2.061732999999947)
-74,124,66d943f7-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.497092,-0.643989,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Selatan,Bacan Selatan,Kampung Makian,33,5,0,,,,,,Pembangunan Jaringan Drainase Lingkungan Kota Baca,,,,,,,admin updated by coord (16/09/2021),,POINT (127.49709200000007 -0.6439889999999764)
-75,126,66d944a2-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.502247,-0.655192,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Selatan,Bacan Selatan,Kampung Makian,33,5,0,,,,,,Pembangunan Jaringan Drainase Lingkungan Kab. Halm,,,,,,,admin updated by coord (16/09/2021),,POINT (127.50224700000001 -0.6551919999999427)
-76,127,66d944da-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.874194,0.337,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Tengah,Weda,Fidi Jaya,33,5,0,,,,,,Pembagunan Drainase Primer Kota Weda,,,,,,,admin updated by coord (16/09/2021),,POINT (127.8741940000001 0.3370000000000459)
-77,128,66d94512-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.864003,0.330911,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Tengah,Weda,Wedana,33,5,0,,,,,,Pembagunan Drainase Primer Kota Weda Kab. Halmaher,,,,,,,admin updated by coord (16/09/2021),,POINT (127.86400300000003 0.3309110000000714)
-78,129,66d94548-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.860075,0.326969,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Tengah,Weda,Wedana,33,5,0,,,,,,Pembangunan Jaringan Drainase Lingkungan Kota Weda,,,,,,,admin updated by coord (16/09/2021),,POINT (127.86007500000005 0.3269690000000196)
-79,131,66d945b3-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,128.252828,0.722939,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Timur,Kota Maba,Wailukum,33,5,0,,,,,,Pembangunan Drainase Primer Kota Maba,,,,,,,admin updated by coord (16/09/2021),,POINT (128.25282800000002 0.7229390000000535)
-80,132,66d945ea-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,128.259719,0.713439,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Timur,Kota Maba,Wailukum,33,5,0,,,,,,Pembangunan Drainase Primer Kota Maba (Tahap II),,,,,,,admin updated by coord (16/09/2021),,POINT (128.25971900000002 0.7134390000000508)
-81,133,66d94622-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,128.280233,0.696242,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Timur,Kota Maba,Maba Sangaji,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Maba,,,,,,,admin updated by coord (16/09/2021),,POINT (128.28023300000007 0.6962420000000407)
-82,134,66d94657-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.550069,0.717453,BBPW Maluku Utara,,82,Maluku Utara,Tidore Kepulauan,Oba Utara,Oba,33,5,0,,,,,,Pembangunan Drainase Primer Kota Sofifi,,,,,,,admin updated by coord (16/09/2021),,POINT (127.55006900000001 0.7174530000000345)
-83,136,66d946c0-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.579,0.74365,BBPW Maluku Utara,,82,Maluku Utara,Tidore Kepulauan,Oba Utara,Galala,33,5,0,,,,,,Pembangunan Jaringan Drainase Lingkungan Kota Sofi,,,,,,,admin updated by coord (16/09/2021),,POINT (127.57900000000006 0.7436500000000592)
-84,138,66d94727-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.577225,0.747978,BBPW Maluku Utara,,82,Maluku Utara,Tidore Kepulauan,Oba Utara,Galala,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Sofifi,,,,,,,admin updated by coord (16/09/2021),,POINT (127.57722500000011 0.747978000000046)
-85,139,66d9475b-ca7a-11eb-a0e3-0050568846de,,1623437708000,,1631806803000,,1623441600000.0,127.453625,0.677664,BBPW Maluku Utara,,82,Maluku Utara,Tidore Kepulauan,Tidore,Indonesiana,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kel. Indonesiana K,,,,,,,admin updated by coord (16/09/2021),,POINT (127.4536250000001 0.6776640000000498)
-86,141,66d947c4-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1631806803000,,1623441600000.0,127.35545,0.765589,BBPW Maluku Utara,,82,Maluku Utara,Ternate,Ternate Selatan,Ngade,33,5,0,,,,,,Pembangunan Drainase Primer Kota Ternate,,,,,,,admin updated by coord (16/09/2021),,POINT (127.35545000000002 0.765589000000034)
-87,142,66d947f8-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1631806803000,,1623441600000.0,127.355056,0.768006,BBPW Maluku Utara,,82,Maluku Utara,Ternate,Ternate Selatan,Ngade,33,5,0,,,,,,Pembangunan Drainase Primer Kota Ternate (Lanjutan,,,,,,,admin updated by coord (16/09/2021),,POINT (127.3550560000001 0.7680060000000708)
-88,143,66d9482b-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1631806803000,,1623441600000.0,128.008881,1.729189,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Utara,Tobelo,Gamsungi,33,5,0,,,,,,Pembangunan Drainase Primer Kota Tobelo,,,,,,,admin updated by coord (16/09/2021),,POINT (128.0088810000001 1.7291890000000762)
-89,144,66d9485f-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1631806803000,,1623441600000.0,127.992267,1.743958,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Utara,Tobelo,Wari,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Tobelo,,,,,,,admin updated by coord (16/09/2021),,POINT (127.99226700000008 1.7439580000000205)
-90,145,66d94891-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1631806803000,,1623441600000.0,127.994436,1.724725,BBPW Maluku Utara,,82,Maluku Utara,Halmahera Utara,Tobelo,Gamsungi,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Tobelo KWS. R,,,,,,,admin updated by coord (16/09/2021),,POINT (127.99443600000006 1.724725000000035)
-91,146,66d948c4-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1631806803000,,1623441600000.0,128.300261,2.051417,BBPW Maluku Utara,,82,Maluku Utara,Pulau Morotai,Morotai Selatan,Darame,33,5,0,,,,,,Pembangunan Jaringan Drainase Lingkungan Kota Daru,,,,,,,admin updated by coord (16/09/2021),,POINT (128.3002610000001 2.0514170000000718)
-92,147,66d948f8-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1631806803000,,1623441600000.0,128.294286,2.050342,BBPW Maluku Utara,,82,Maluku Utara,Pulau Morotai,Morotai Selatan,Darame,33,5,0,,,,,,Pembangunan Drainase Lingkungan Kota Daruba,,,,,,,admin updated by coord (16/09/2021),,POINT (128.29428600000006 2.0503420000000574)
-93,148,6d011435-ca7a-11eb-a0e3-0050568846de,,1623437709000,,1628401843000,,1623441600000.0,,,BPPW Aceh,,11,Aceh,,Aceh Tamiang,Aceh Tamiang,33,5,0,,,,,,Pembangunan Drainase Primer Kab. Aceh Tamiang,,,,,,,,,
-94,149,6e22dd8f-ca7a-11eb-a0e3-0050568846de,,1623437709000,BPPW.Bengkulu,1649950629000,,1623441600000.0,,,BPPW Bengkulu,,17,Bengkulu,Kota Bengkulu,,,33,5,,,,,,,Pembangunan Saluran Drainase Lokasi Muhajirin dan Hibrida Kota Bengkulu,,,,,,,,,
-95,150,6e81909c-ca7a-11eb-a0e3-0050568846de,,1623437709000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Gambir,Cideng,33,5,0,,,,,,Pengerukan dan Normalisasi Saluran Cideng - Thamri,,,,,,,,,
-96,151,6e8191cc-ca7a-11eb-a0e3-0050568846de,,1623437709000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Setiabudi,Guntur,33,5,0,,,,,,Normalisasi Waduk Setiabudi,,,,,,,,,
-97,152,6e819218-ca7a-11eb-a0e3-0050568846de,,1623437709000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Grogol Petamburan,Jelambar,33,5,0,,,,,,"Perkuatan Kali Grogol, Jelambar Jakarta Barat",,,,,,,,,
-98,153,6e819253-ca7a-11eb-a0e3-0050568846de,,1623437709000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Grogol,Wijaya Kusuma,33,5,0,,,,,,Pengerukan dan Normalisasi Saluran Tanjungan dan L,,,,,,,,,
-99,154,6e81928c-ca7a-11eb-a0e3-0050568846de,,1623437709000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Grogol Petamburan,Jelambar,33,5,0,,,,,,Pembangunan Drainase Jelambar Jakarta,,,,,,,,,
-100,156,6e8192f9-ca7a-11eb-a0e3-0050568846de,,1623437709000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Tanah Abang,Gelora,33,5,0,,,,,,Pembangunan Drainase Dalam Rangka Mendukung Asian ,,,,,,,,,
-101,157,6e81932c-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Gambir,Gambir,33,5,0,,,,,,Rehabilitasi Drainase Kawasan Istana Kepresidenan ,,,,,,,,,
-102,158,6e819366-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Pademangan,Pademangan,33,5,0,,,,,,Perkuatan Kali Pademangan Barat dalam Rangka Mendu,,,,,,,,,
-103,159,6e819399-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Kebayoran Lama,Tanah Kusir,33,5,0,,,,,,Pembangunan Drainase Lingkungan Komplek PU Bina Ma,,,,,,,,,
-104,160,6e8193cd-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,BPPW DKI Jakarta,,31,DKI Jakarta,,Bekasi Selatan,Bekasi Selatan,33,5,0,,,,,,Penanganan Genangan Kawasan Bekasi Selatan Kota Be,,,,,,,,,
-105,162,6e819441-ca7a-11eb-a0e3-0050568846de,,1623437710000,,1628401843000,,1623441600000.0,,,,,,,,,,,,,,,,,,,,,,,,,,,
-106,163,788e337c-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Kubu,33,6,,,,,Baik,PENGAMAN PANTAI,Penanganan Pantai Desa Kubu,2012,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Kubu, Kab. Kotawaringin Barat",,,
-107,164,788e3538-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33,6,,,,,Baik,PENGAMAN PANTAI,Penanganan Pantai Desa Keraya,2012,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Keraya, Kab. Kotawaringin Barat",,,
-108,165,788e35c5-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33,6,,,,,Baik,PENGAMAN PANTAI,Penanganan Pantai Sungai Bakau,2012,WS. MENTAYA-KATINGAN,DAS SERUYAN,1,0,kab.seruyan,,,
-109,166,788e361d-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33,6,,,,,Baik,PENGAMAN PANTAI,Penanganan Pantai Sei Cabang Barat Kecamatan Lunci,2012,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Cabang Barat, Kabupaten Sukamara",,,
-110,167,788e3664-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kapuas,Kapuas Kuala,Pematang,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Desa Pematang (Cemara ,2013,WS. KAPUAS,DAS KAPUAS,1,0,Kab. kapuas,,,
-111,168,788e36a3-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kapuas,Kapuas Kuala,Pematang,33,6,,,,,Baik,PENGAMAN PANTAI,Penanganan Pantai Desa Pematang (Cemara Labat),2012,WS.KAPUAS,DAS KAPUAS,1,0,Kab. Kapuas,,,
-112,169,788e36de-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Seraya,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Desa Keraya Kab. Kobar,2013,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Keraya, Kab. Kotawaringin Barat",,,
-113,170,788e371f-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Kubu,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Desa Kubu di Kabupaten,2013,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Kubu, Kab. Kotawaringin Barat",,,
-114,171,788e375c-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Sungai Bakau di Kabupa,2013,WS.MENTAYA-KATINGAN,DAS SERUYAN,1,0,Kab seruyan,,,
-115,172,788e3798-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sungai Damar,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Sei. Damar di Kabupate,2013,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Damar, Kabupaten Sukamara",,,
-116,173,788e37d1-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Tabuk,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Sei. Tabuk di Kabupate,2013,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Tabuk, Kabupaten Sukamara",,,
-117,174,788e3808-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Sei. Cabang Barat di K,2013,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Cabang Barat, Kabupaten Sukamara",,,
-118,175,788e3840-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sungai Damar,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI SEI. DAMAR KABUPATEN S,2014,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Damar, Kabupaten Sukamara",,,
-119,176,788e387b-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI SEI. CABANG BARAT KABU,2014,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Cabang Barat, Kabupaten Sukamara",,,
-120,177,788e38b1-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI SUNGAI BAKAU KABUPATEN,2014,WS.MENTAYA-KATINGAN,DAS SERUYAN,1,0,Kab seruyan,,,
-121,178,788e38e9-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Kubu,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI DESA KUBU KABUPATEN KO,2014,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Kubu, Kab. Kotawaringin Barat",,,
-122,179,788e391d-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI DESA KERAYA; KAB. KOTA,2015,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Keraya, Kab. Kotawaringin Barat",,,
-123,180,788e3954-ca7a-11eb-a0e3-0050568846de,,1623437710000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI SUNGAI BAKAU; KAB. SER,2015,WS.MENTAYA-KATINGAN,DAS SERUYAN,1,0,Kab. Seruyan,,,
-124,181,788e3989-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sungai Damar,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI SEI. DAMAR; KAB. SUKAM,2015,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Damar, Kabupaten Sukamara",,,
-125,182,788e39c1-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33,6,,,,,Baik,PENGAMAN PANTAI,PEMBANGUNAN PENGAMAN PANTAI SEI. CABANG BARAT; KAB,2015,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,"Sei. Cabang Barat, Kabupaten Sukamara",,,
-126,183,788e39f7-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Timur,Teluk Sampit,Ujung Pandaran,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Desa Ujung Pandaran; K,2016,WS.MENTAYA-KATINGAN,DAS MENYATA,1,0,Kab. Kotawaringin Timur,,,
-127,184,788e3a30-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33,6,,,,,Baik,PENGAMAN PANTAI,Lanjutan Pembangunan Breakwater Desa Keraya; Kab. ,2017,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Keraya, Kabupaten Kotawaringin Barat",,,
-128,185,788e3a66-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Sebuai Timur,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Breakwater Desa Sebuai Timur Kabupaten,2019,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Sebuai Timur, Kecamatan Kumai, 
-   Kabupaten",,,
-129,186,788e3a9e-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Breakwater Desa Keraya Kabupaten Kotaw,2019,WS.JELAI-KENDAWANGAN,DAS KUMAI,1,0,"Desa Keraya, Kecamatan Kumai, Kabupaten Kotawaring",,,
-130,187,788e3ad4-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Tabuk,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Groin Pantai Desa Sei Tabuk Kabupaten ,2019,WS.JELAI-KENDAWANGAN,DAS JELAI,1,0,Kab. Sukamara,,,
-131,188,788e3b0c-ca7a-11eb-a0e3-0050568846de,,1623437711000,TEST01,1629988541000,,1623441600000.0,,,,,,Kalimantan Tengah,Kotawaringin Timur,Teluk Sampit,Ujung Pandaran,33,6,,,,,Baik,PENGAMAN PANTAI,Pembangunan Pengaman Pantai Desa Ujung Pandaran Ka,2019,WS.MENTAYA-KATINGAN,DAS MENYATA,1,0,Kab. Kotim,,,
-132,190,f45f1e2c-9b74-480a-b1f0-5e89e5707427,paul_asido,1648829812000,,1648829812000,2.0,,104.07032,1.033304,BPPW Kepulauan Riau,,,Kepulauan Riau,"Kota
-  Batam",Nongsa,Kabil,33,,,,,,,,"Pembangunan
-  Drainase Primer Kota Batam",,,,,,,,,POINT (104.07032000000004 1.0333040000000437)
-133,191,c724576e-901a-4fce-8d0d-641df96a7494,paul_asido,1648829812000,,1648829812000,2.0,,104.44467,0.918496,BPPW Kepulauan Riau,,,Kepulauan Riau,Tanjungpinang,"Tanjungpinang
+,objectid,uid,updated,nm_balai,kd_prov,provinsi,kab_kota,kecamatan,kel_desa,kd_kem,kd_unor,kl_dat_das,thn_data
+0,17,6d569c94-ca7a-11eb-a0e3-0050568846de,1649668588000,BPPW Bali,36.0,Bali,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+1,18,6da5b98e-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW Bangka Belitung,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Muntok,Teluk Rubiah,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2006.0
+2,19,6da5bb94-ca7a-11eb-a0e3-0050568846de,1628401843000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2007.0
+3,20,6da5bbee-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Pangkalan Baru,Batu Belubang,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2011.0
+4,21,6da5bc2a-ca7a-11eb-a0e3-0050568846de,1628401843000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2010.0
+5,22,6da5bc5f-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Muntok,Muntok,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2011.0
+6,24,6da5bcc4-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Namang,Kurau,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2012.0
+7,25,6da5bcf8-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Muntok,Sungai Baru,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2013.0
+8,26,6da5bd27-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Muntok,Sungai Baru,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2014.0
+9,27,6da5bd56-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Parit Tiga,Parit Tiga,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2014.0
+10,28,6da5bd84-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Muntok,Belo Laut,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2017.0
+11,29,6da5bdb4-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,19.0,Kepulauan Bangka Belitung,Tidak Diketahui,Parit Tiga,Sekar Biru,33.0,49.0,INSTALASI AIR BUANGAN DOMESTIK,2018.0
+12,30,6de154fc-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Banten,51.0,Banten,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+13,31,6e864136-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW D.I. Yogyakarta,34.0,DIY,Tidak Diketahui,Gunung Kidul,Gunung Kidul,33.0,5.0,0,0.0
+14,32,6ec07a6c-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Gorontalo,75.0,Gorontalo,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+15,33,6f62136e-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Jambi,15.0,Jambi,Jambi,Kota Baru,Suka Karya,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+16,34,6f62149d-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Jambi,15.0,Jambi,Jambi,Alam Barajo,Mayang Mangurai,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+17,35,6f6214f3-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW Jambi,15.0,Jambi,Tidak Diketahui,Jambi,Jambi,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+18,36,6f62152b-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW Jambi,15.0,Jambi,Tidak Diketahui,Jambi,Jambi,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+19,37,6f621564-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW Jambi,15.0,Jambi,Tidak Diketahui,Muaro Jambi,Muaro Jambi,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+20,38,6f621598-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW Jambi,15.0,Jambi,Tidak Diketahui,Muaro Jambi,Muaro Jambi,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+21,39,6f6215d0-ca7a-11eb-a0e3-0050568846de,1628401843000,Tidak Diketahui,0.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,0.0,0.0,Tidak Diketahui,Tidak Diketahui
+22,40,6fb2cc34-ca7a-11eb-a0e3-0050568846de,1628401843000,Tidak Diketahui,32.0,Jawa Barat,Tidak Diketahui,Pondok Gede,Pondok Gede,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+23,41,6fb2ccee-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Jawa Barat,32.0,Jawa Barat,Tidak Diketahui,Jatibening,Jatibening,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+24,42,700214d5-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Jawa Tengah,33.0,Jawa Tengah,Tidak Diketahui,Sleman,Sleman,33.0,5.0,0,0.0
+25,43,700215ae-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Jawa Tengah,33.0,Jawa Tengah,Tidak Diketahui,Sleman,Sleman,33.0,5.0,0,0.0
+26,44,700215f3-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Jawa Tengah,33.0,Jawa Tengah,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,0,0.0
+27,73,70ad3302-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Kalimantan Barat,61.0,Kalimantan Barat,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+28,74,71014816-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Kalimantan Selatan,63.0,Kalimantan Selatan,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+29,75,71535467-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Kalimantan Tengah,62.0,Kalimantan Tengah,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+30,76,71a5c53d-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Kalimantan Timur,64.0,Kalimantan Timur,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+31,77,71ffcdf4-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Tidak Diketahui,Sesayap,"Jl. Perintis, Jl salmon, Jl Manunggal",33.0,5.0,Tidak Diketahui,Tidak Diketahui
+32,78,71ffcf01-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Tidak Diketahui,Tanjung Selor Hilir,"Jalan Binjai, Jalan Ulin, Jalan Meranti dan Jalan ",33.0,5.0,Tidak Diketahui,Tidak Diketahui
+33,79,71ffcf4a-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+34,80,71ffcf8b-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Kalimantan Utara,64.0,Kalimantan Timur,Berau,Segah,Batu Rajang,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+35,81,71ffcfc4-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Tarakan,Tarakan Tengah,Pamusian,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+36,82,71ffcffd-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+37,83,71ffd037-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+38,84,71ffd06d-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Nunukan,Sebatik Utara,Pancang,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+39,85,71ffd195-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Kalimantan Utara,65.0,Kalimantan Utara,Tarakan,Tarakan Barat,Karang Anyar,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+40,86,71ffd1d2-ca7a-11eb-a0e3-0050568846de,1628401843000,Tidak Diketahui,0.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+41,87,7261975f-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Kepulauan Riau,21.0,Kepulauan Riau,Tidak Diketahui,Tanjung Pinang,Tanjung Pinang,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+42,88,72c1c643-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Lampung,18.0,Lampung,Tidak Diketahui,Lampung Selatan,Lampung Selatan,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+43,89,72c1c85c-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Lampung,18.0,Lampung,Tidak Diketahui,Tulang Bawang,Tulang Bawang,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+44,90,72c1c8b2-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Lampung,18.0,Lampung,Tidak Diketahui,Tulang Bawang,Tulang Bawang,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+45,91,72c1c8ed-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Lampung,18.0,Lampung,Tidak Diketahui,Pringsewu,Pringsewu,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+46,92,731b91c9-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Maluku,81.0,Maluku,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+47,93,7390f28a-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Nusa Tenggara Barat,52.0,Nusa Tenggara Barat,Tidak Diketahui,Kec. Pujut,Pujut,33.0,5.0,Drainase Lingkungan,2021.0
+48,94,7390f3ab-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW Nusa Tenggara Barat,52.0,Nusa Tenggara Barat,Tidak Diketahui,Kec. Cakranegara,Tidak Diketahui,33.0,5.0,Drainase Lingkungan,2021.0
+49,95,7390f3f3-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Nusa Tenggara Barat,52.0,Nusa Tenggara Barat,Tidak Diketahui,Kec. Gunungsari ,Tidak Diketahui,33.0,5.0,Drainase Lingkungan,2021.0
+50,100,73d2a67c-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Nusa Tenggara Timur,53.0,Nusa Tenggara Timur,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+51,101,741fa53b-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Papua Barat,94.0,Papua Barat,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+52,102,741812ed-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Papua,91.0,Papua,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+53,103,74bbe2f6-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Riau,14.0,Riau,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+54,104,74ff625d-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Barat,76.0,Sulawesi Barat,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+55,105,754d0e0c-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Selatan,73.0,Sulawesi Selatan,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+56,106,759fc969-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Sulawesi Tengah,72.0,Sulawesi Tengah,Poso,Poso Kota,Gebang Rejo,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+57,107,759fca67-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Tengah,72.0,Sulawesi Tengah,Tidak Diketahui,Kecamatan Parigi Utara,Desa Pangi,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+58,108,759fcab3-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Tengah,72.0,Sulawesi Tengah,Tidak Diketahui,Kecamatan Palu Timur,Kelurahan Lolu Utara,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+59,109,759fcaec-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Tengah,72.0,Sulawesi Tengah,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+60,110,759fcb29-ca7a-11eb-a0e3-0050568846de,1631806803000,BPPW Sulawesi Tengah,72.0,Sulawesi Tengah,Toli-Toli,Baolan,Baru,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+61,111,75f670cb-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Tenggara,74.0,Sulawesi Tenggara,Tidak Diketahui,Kendari,Kendari,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+62,112,75f671af-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Tenggara,74.0,Sulawesi Tenggara,Tidak Diketahui,Kendari,Kendari,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+63,113,76396e66-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Utara,71.0,Sulawesi Utara,Tidak Diketahui,Bitung,Bitung,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+64,114,76396f21-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Utara,74.0,Sulawesi Utara,Tidak Diketahui,Baubau,Baubau,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+65,115,76396f67-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Utara,74.0,Sulawesi Utara,Tidak Diketahui,Baubau,Baubau,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+66,116,76396fa4-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Utara,71.0,Sulawesi Utara,Tidak Diketahui,Bitung,Bitung,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+67,117,7639714f-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Utara,71.0,Sulawesi Utara,Tidak Diketahui,Minahasa Tenggara,Minahasa Tenggara,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+68,118,7639732f-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sulawesi Utara,74.0,Sulawesi Utara,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+69,119,768bb84f-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sumatera Barat,13.0,Sumatera Barat,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+70,120,76d6a246-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sumatera Selatan,16.0,Sumatera Selatan,Tidak Diketahui,Seberang Ulu,Ulu,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+71,121,76d6a2fb-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sumatera Selatan,16.0,Sumatera Selatan,Tidak Diketahui,Seberang Ulu,Ulu,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+72,122,771b43a7-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Sumatera Utara,12.0,Sumatera Utara,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+73,123,66d942b6-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Kepulauan Sula,Sanana,Falahu,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+74,124,66d943f7-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Selatan,Bacan Selatan,Kampung Makian,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+75,126,66d944a2-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Selatan,Bacan Selatan,Kampung Makian,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+76,127,66d944da-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Tengah,Weda,Fidi Jaya,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+77,128,66d94512-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Tengah,Weda,Wedana,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+78,129,66d94548-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Tengah,Weda,Wedana,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+79,131,66d945b3-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Timur,Kota Maba,Wailukum,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+80,132,66d945ea-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Timur,Kota Maba,Wailukum,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+81,133,66d94622-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Timur,Kota Maba,Maba Sangaji,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+82,134,66d94657-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Tidore Kepulauan,Oba Utara,Oba,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+83,136,66d946c0-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Tidore Kepulauan,Oba Utara,Galala,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+84,138,66d94727-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Tidore Kepulauan,Oba Utara,Galala,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+85,139,66d9475b-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Tidore Kepulauan,Tidore,Indonesiana,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+86,141,66d947c4-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Ternate,Ternate Selatan,Ngade,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+87,142,66d947f8-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Ternate,Ternate Selatan,Ngade,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+88,143,66d9482b-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Utara,Tobelo,Gamsungi,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+89,144,66d9485f-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Utara,Tobelo,Wari,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+90,145,66d94891-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Halmahera Utara,Tobelo,Gamsungi,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+91,146,66d948c4-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Pulau Morotai,Morotai Selatan,Darame,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+92,147,66d948f8-ca7a-11eb-a0e3-0050568846de,1631806803000,BBPW Maluku Utara,82.0,Maluku Utara,Pulau Morotai,Morotai Selatan,Darame,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+93,148,6d011435-ca7a-11eb-a0e3-0050568846de,1628401843000,BPPW Aceh,11.0,Aceh,Tidak Diketahui,Aceh Tamiang,Aceh Tamiang,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+94,149,6e22dd8f-ca7a-11eb-a0e3-0050568846de,1649950629000,BPPW Bengkulu,17.0,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+95,150,6e81909c-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Gambir,Cideng,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+96,151,6e8191cc-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Setiabudi,Guntur,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+97,152,6e819218-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Grogol Petamburan,Jelambar,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+98,153,6e819253-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Grogol,Wijaya Kusuma,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+99,154,6e81928c-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Grogol Petamburan,Jelambar,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+100,156,6e8192f9-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Tanah Abang,Gelora,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+101,157,6e81932c-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Gambir,Gambir,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+102,158,6e819366-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Pademangan,Pademangan,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+103,159,6e819399-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Kebayoran Lama,Tanah Kusir,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+104,160,6e8193cd-ca7a-11eb-a0e3-0050568846de,1629988541000,BPPW DKI Jakarta,31.0,DKI Jakarta,Tidak Diketahui,Bekasi Selatan,Bekasi Selatan,33.0,5.0,Tidak Diketahui,Tidak Diketahui
+105,162,6e819441-ca7a-11eb-a0e3-0050568846de,1628401843000,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+106,163,788e337c-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Kubu,33.0,6.0,PENGAMAN PANTAI,2012.0
+107,164,788e3538-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33.0,6.0,PENGAMAN PANTAI,2012.0
+108,165,788e35c5-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33.0,6.0,PENGAMAN PANTAI,2012.0
+109,166,788e361d-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33.0,6.0,PENGAMAN PANTAI,2012.0
+110,167,788e3664-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kapuas,Kapuas Kuala,Pematang,33.0,6.0,PENGAMAN PANTAI,2013.0
+111,168,788e36a3-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kapuas,Kapuas Kuala,Pematang,33.0,6.0,PENGAMAN PANTAI,2012.0
+112,169,788e36de-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Seraya,33.0,6.0,PENGAMAN PANTAI,2013.0
+113,170,788e371f-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Kubu,33.0,6.0,PENGAMAN PANTAI,2013.0
+114,171,788e375c-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33.0,6.0,PENGAMAN PANTAI,2013.0
+115,172,788e3798-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sungai Damar,33.0,6.0,PENGAMAN PANTAI,2013.0
+116,173,788e37d1-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Tabuk,33.0,6.0,PENGAMAN PANTAI,2013.0
+117,174,788e3808-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33.0,6.0,PENGAMAN PANTAI,2013.0
+118,175,788e3840-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sungai Damar,33.0,6.0,PENGAMAN PANTAI,2014.0
+119,176,788e387b-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33.0,6.0,PENGAMAN PANTAI,2014.0
+120,177,788e38b1-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33.0,6.0,PENGAMAN PANTAI,2014.0
+121,178,788e38e9-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Kubu,33.0,6.0,PENGAMAN PANTAI,2014.0
+122,179,788e391d-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33.0,6.0,PENGAMAN PANTAI,2015.0
+123,180,788e3954-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Seruyan,Seruyan Hilir,Sei Bakau,33.0,6.0,PENGAMAN PANTAI,2015.0
+124,181,788e3989-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sungai Damar,33.0,6.0,PENGAMAN PANTAI,2015.0
+125,182,788e39c1-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Cabang Barat,33.0,6.0,PENGAMAN PANTAI,2015.0
+126,183,788e39f7-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Timur,Teluk Sampit,Ujung Pandaran,33.0,6.0,PENGAMAN PANTAI,2016.0
+127,184,788e3a30-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33.0,6.0,PENGAMAN PANTAI,2017.0
+128,185,788e3a66-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Sebuai Timur,33.0,6.0,PENGAMAN PANTAI,2019.0
+129,186,788e3a9e-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Barat,Kumai,Keraya,33.0,6.0,PENGAMAN PANTAI,2019.0
+130,187,788e3ad4-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Sukamara,Pantai Lunci,Sei Tabuk,33.0,6.0,PENGAMAN PANTAI,2019.0
+131,188,788e3b0c-ca7a-11eb-a0e3-0050568846de,1629988541000,Tidak Diketahui,Tidak Diketahui,Kalimantan Tengah,Kotawaringin Timur,Teluk Sampit,Ujung Pandaran,33.0,6.0,PENGAMAN PANTAI,2019.0
+132,190,f45f1e2c-9b74-480a-b1f0-5e89e5707427,1648829812000,BPPW Kepulauan Riau,Tidak Diketahui,Kepulauan Riau,"Kota
+  Batam",Nongsa,Kabil,33.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+133,191,c724576e-901a-4fce-8d0d-641df96a7494,1648829812000,BPPW Kepulauan Riau,Tidak Diketahui,Kepulauan Riau,Tanjungpinang,"Tanjungpinang
   Barat","Jalan
-  Rajawali 2",33,,,,,,,,Pembangunan Saluran Drainase Lingkungan Kota Tanjungpinang,,,,,,,,,POINT (104.44467000000009 0.9184960000000615)
-134,192,de2947e8-f6e9-4a11-8959-a68e3e50e261,paul_asido,1648829812000,,1648829812000,2.0,,104.320759,1.125768,BPPW Kepulauan Riau,,,Kepulauan Riau,Bintan,Teluk Sebong,"Desa
-  Sebong Lagoi",33,,,,,,,,"Pembangunan Drainase Permukiman Kabupaten Bintan 
-     ",,,,,,,,,POINT (104.32075900000007 1.1257680000000505)
-135,193,7593d5c3-e27c-4aa2-ad23-12f6f32e1ec7,paul_asido,1648829812000,,1648829812000,2.0,,108.377833,3.935214,BPPW Kepulauan Riau,,,Kepulauan Riau,Natuna,Bunguran Timur,Ranai,33,,,,,,,,"Pembangunan Drainase Permukiman Kabupaten Natuna
-     ",,,,,,,,,POINT (108.37783300000007 3.9352140000000304)
-136,194,0d687a6a-efec-441e-a177-a17592ade310,paul_asido,1648829812000,,1648829812000,2.0,,104.488026,0.899841,BPPW Kepulauan Riau,,,Kepulauan Riau,Tanjungpinang,"Tanjungpinang
+  Rajawali 2",33.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+134,192,de2947e8-f6e9-4a11-8959-a68e3e50e261,1648829812000,BPPW Kepulauan Riau,Tidak Diketahui,Kepulauan Riau,Bintan,Teluk Sebong,"Desa
+  Sebong Lagoi",33.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+135,193,7593d5c3-e27c-4aa2-ad23-12f6f32e1ec7,1648829812000,BPPW Kepulauan Riau,Tidak Diketahui,Kepulauan Riau,Natuna,Bunguran Timur,Ranai,33.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+136,194,0d687a6a-efec-441e-a177-a17592ade310,1648829812000,BPPW Kepulauan Riau,Tidak Diketahui,Kepulauan Riau,Tanjungpinang,"Tanjungpinang
   Timur","Jalan
-  Merkar Baru Batu 9",33,,,,,,,,Pembangunan Drainase Lingkungan Permukiman Kota Tanjungpinang,,,,,,,,,POINT (104.48802600000005 0.8998410000000376)
-137,195,f70d1cbc-e6c3-4002-b497-b703a0438c22,paul_asido,1648829812000,,1648829812000,2.0,,103.418563,1.014189,BPPW Kepulauan Riau,,,Kepulauan Riau,Karimun,Tebing,"Perumahan
-  BTN Bukit Balai Permai, Kelurahan Kapling",33,,,,,,,,Pembangunan Drainase Lingkungan Permukiman Kabupaten Karimun,,,,,,,,,POINT (103.41856300000006 1.0141890000000444)
-138,196,966bfe92-6b56-46b8-9b74-b0a693383f49,paul_asido,1648829812000,,1648829812000,2.0,,104.23314,1.06625,BPPW Kepulauan Riau,,,Kepulauan Riau,Bintan,"Bintan
+  Merkar Baru Batu 9",33.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+137,195,f70d1cbc-e6c3-4002-b497-b703a0438c22,1648829812000,BPPW Kepulauan Riau,Tidak Diketahui,Kepulauan Riau,Karimun,Tebing,"Perumahan
+  BTN Bukit Balai Permai, Kelurahan Kapling",33.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+138,196,966bfe92-6b56-46b8-9b74-b0a693383f49,1648829812000,BPPW Kepulauan Riau,Tidak Diketahui,Kepulauan Riau,Bintan,"Bintan
   Utara","Jl.
-  Karya Praja, RT 5 RW 2 Kelurahan Tanjung Uban Selatan",33,,,,,,,,Pembangunan Drainase Lingkungan Permukiman Kabupaten Bintan,,,,,,,,,POINT (104.23314000000005 1.066250000000025)
-139,197,976b17cc-3ff4-436a-bc7d-a39c81127286,1969050552002121004,1649324717000,1969050552002121004,1649668495000,2.0,,,,BPPW Bali,,51,Bali,Gianyar,Sukawati,Sukawati,33,5,,,,,Berfungsi,Drainase Sukawati Kabupaten Gianyar,Pembangunan Drainase Sukawati Kabupaten Gianyar,2021,,,,,,,,
-140,199,f1cb8f4c-3679-4d2f-91eb-1db2daa848d6,BPPW.Bengkulu,1649949770000,,1649949770000,2.0,,,,BPPW Bengkulu,,17,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Puri Lestari Kota Bengkulu,2022,,,,,,,,
-141,200,0019fad3-46d8-450b-8125-f98716b35e4a,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,"Kota
-  Bengkulu",,,,,,,,,BAIK,,"Pembangunan
-  Saluran Drainase Lokasi Puri Lestari Kota Bengkulu",,,,,,,,,
-142,201,5fb91186-8cbd-4d4d-abaf-d9efa9ce1134,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,BAIK,,Pembangunan Saluran Drainase Lokasi Betungan Kota Bengkulu,,,,,,,,,
-143,202,d2f29fd0-fe28-4b01-8a44-9dea0f593471,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Saluran Drainase Lokasi Muhajirin dan Hibrida Kota
-  Bengkulu",,,,,,,,,
-144,203,9cef111a-99db-46bf-b715-2ca83101cdbb,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,BAIK,,Pembangunan Saluran Drainase Lokasi Puri Lestari 2 Kota Bengkulu,,,,,,,,,
-145,204,e9e92e52-648b-407b-82c0-4afc6668e343,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,BAIK,,Pembangunan Saluran Drainase Lokasi Puri Lestari 1 Kota Bengkulu,,,,,,,,,
-146,205,e9d3c01e-3591-4d31-b72b-7d5c6978ddeb,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,BAIK,,"Pembangunan Saluran Drainase Lokasi Kawab Bumi Ayu Selebar Kota
-  Bengkulu",,,,,,,,,
-147,206,fff4efc0-05af-46fe-9844-541c9d977fa6,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,BAIK,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
-148,207,48dcd0c5-698d-447e-a1bc-8c975b29c02f,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,BAIK,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
-149,208,4fd0748b-0c4c-4618-a754-0e831136e1ed,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kab. Kepahiang,,,,,,,,,RUSAK RINGAN,,"PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Kab.
-  Kepahiang)",,,,,,,,,
-150,209,c1558345-2ac0-4604-b43d-7d61ea80268b,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kab. Lebong,,,,,,,,,RUSAK RINGAN,,"PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Kab.
-  Lebong)",,,,,,,,,
-151,210,10610b56-8d91-4674-b8ed-2403b43961d1,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kab. Kepahiang,,,,,,,,,RUSAK RINGAN,,"PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Kab.
-  Kepahiang)",,,,,,,,,
-152,211,7b5012d5-0a75-4da1-9c3a-f74088001790,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Depan Kantor Gubernur dan Samping Puri
-  Pesona Padang Harapan Kota Bengkulu)",,,,,,,,,
-153,212,fd582fd3-6f11-479f-bd25-f0a7b2ce6bac,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kab. Seluma,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kab.
-  Kepahiang)",,,,,,,,,
-154,213,724f5f81-cc86-4f63-ab06-525aca628cfb,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Lokasi
-  Surabaya Kota Bengkulu)",,,,,,,,,
-155,214,ab72898c-c40b-4744-8b69-bd4886746a1b,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK BERAT,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Padang
-  Harapan Kota Bengkulu)",,,,,,,,,
-156,215,c7810928-c292-4cd3-9c03-fe82589e35ec,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kab. Seluma,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kab.
-  Seluma)",,,,,,,,,
-157,216,a83c5a95-4ae1-41d3-b759-fc229009e498,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kab. Bengkulu Utara,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kab.
-  Bengkulu Utara)",,,,,,,,,
-158,217,af6ecd76-24ce-457a-aac8-646ea7fbdd4f,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Jl. P.
-  Natadirja 10 Sebelah Mesjid Al-Munawar Kota Bengkulu)",,,,,,,,,
-159,218,c024d3a4-d302-4111-bbcf-8f0ccd4925c3,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota
-  Bengkulu)",,,,,,,,,
-160,219,d944d8ce-525f-42f3-91f9-b52c4e649208,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota
-  Bengkulu)",,,,,,,,,
-161,220,5f466c68-85b6-422b-bcd0-a2487bc0b70f,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kawasan
-  Timur Indah Ujung Kota Bengkulu)",,,,,,,,,
-162,221,7e3abb86-ad14-497e-858f-225d8f578939,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK BERAT,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Lokasi
-  Kawasan Bajak Kota Bengkulu)",,,,,,,,,
-163,222,4ef7984a-8fc4-4443-bbe1-38f14f094ad0,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota
-  Bengkulu)",,,,,,,,,
-164,223,929651e6-bc62-466d-a325-09f6667fe867,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota
-  Bengkulu)",,,,,,,,,
-165,224,0d4b67bc-a964-4cb3-ab31-a752a75f44dd,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota
-  Bengkulu)",,,,,,,,,
-166,225,5518132c-a485-464e-9ede-ee243a9c8a63,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Lokasi
-  Kawasan Surabaya dan KWS. Cimanuk Kota Bengkulu)",,,,,,,,,
-167,226,9d489fb4-3f66-41ec-981b-1f658d7f7b80,BPPW.Bengkulu,1649950442000,,1649950442000,2.0,,,,BPPW Bengkulu,,,,Betungan Kota Bengkulu,,,,,,,,,RUSAK RINGAN,,"Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota
-  Bengkulu)",,,,,,,,,
-168,227,c76ad3d3-dd2e-487f-901f-29b6760f0e6a,BPPW.Bengkulu,1649950574000,,1649950574000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Betungan Kota Bengkulu,,,,,,,,,
-169,228,f94cd8f3-7d47-4084-a1cd-4120b6e1ce79,BPPW.Bengkulu,1649950708000,,1649950708000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Puri Lestari 2 Kota Bengkulu,,,,,,,,,
-170,229,6d433f0a-ec9e-4892-93f9-bfb3a4b2bc23,BPPW.Bengkulu,1649950739000,,1649950739000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Puri Lestari 1 Kota Bengkulu,,,,,,,,,
-171,230,f7ef8d3e-3156-4b04-b9cc-ecccaf14d74c,BPPW.Bengkulu,1649950764000,,1649950764000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Kawab Bumi Ayu Selebar Kota Bengkulu,,,,,,,,,
-172,231,49123ead-eb60-4a48-9bd6-3f49a4e8469e,BPPW.Bengkulu,1649950773000,,1649950773000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
-173,232,95cc3f6b-b8ad-4ef6-b4e3-e3512416fcad,BPPW.Bengkulu,1649950782000,,1649950782000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
-174,233,11cc0782-fe1b-45a9-9a6c-bd627bd72e39,BPPW.Bengkulu,1649950798000,,1649950798000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Kab. Kepahiang),,,,,,,,,
-175,234,15ee2b77-3a80-4899-9428-2a03c85c9d42,BPPW.Bengkulu,1649950911000,,1649950911000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Kawab Bumi Ayu Selebar Kota Bengkulu,,,,,,,,,
-176,235,e0678731-a19c-4545-aefa-793befd499ea,BPPW.Bengkulu,1649950938000,,1649950938000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
-177,236,f5ff8f2d-7074-4c14-88a0-1e5a0828d9a8,BPPW.Bengkulu,1649950946000,,1649950946000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
-178,237,21f17924-e1f1-48ad-95b6-dbeade2bdc74,BPPW.Bengkulu,1649950957000,,1649950957000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Kab. Kepahiang),,,,,,,,,
-179,238,7bff0fc3-34db-4d96-b77c-258f39a94b09,BPPW.Bengkulu,1649950966000,,1649950966000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Kab. Lebong),,,,,,,,,
-180,239,4f2f8031-94af-490d-8a22-b037bf55a6f1,BPPW.Bengkulu,1649950973000,,1649950973000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Kab. Kepahiang),,,,,,,,,
-181,240,9a494c19-d37f-4827-b376-114842dbf219,BPPW.Bengkulu,1649951004000,,1649951004000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Drainase ( Depan Kantor Gubernur dan Samping Puri Pesona Padang Harapan Kota Bengkulu),,,,,,,,,
-182,241,a380a649-e9b8-4376-8c00-16fab8eb7229,BPPW.Bengkulu,1649951015000,,1649951015000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kab. Kepahiang),,,,,,,,,
-183,242,3aa20305-bb36-4fe2-8f95-c361e1f7df96,BPPW.Bengkulu,1649951028000,,1649951028000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Lokasi Surabaya Kota Bengkulu),,,,,,,,,
-184,243,7e1a4d9a-9164-492a-bad5-b25f8e438a69,BPPW.Bengkulu,1649951035000,,1649951035000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,PembangunanDrainase ( Pembuangan Air Buangan Air Hujan Lokasi Surabaya Kota Bengkulu),,,,,,,,,
-185,244,b47e85a7-2869-403d-8abc-e552776a20f9,BPPW.Bengkulu,1649951044000,,1649951044000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Padang Harapan Kota Bengkulu),,,,,,,,,
-186,245,1dae9051-7bd9-43fa-a118-e5d098a6bef4,BPPW.Bengkulu,1649951051000,,1649951051000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kab. Seluma),,,,,,,,,
-187,246,4df8e627-b44b-4e28-bab4-95d12e5326f3,BPPW.Bengkulu,1649951060000,,1649951060000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kab. Bengkulu Utara),,,,,,,,,
-188,247,554c1abe-3b61-455e-af0b-0d750f50e41e,BPPW.Bengkulu,1649951070000,,1649951070000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kab. Bengkulu Utara),,,,,,,,,
-189,248,bf2a5b6d-28e8-458e-893f-2d5d9b30f2f4,BPPW.Bengkulu,1649951079000,,1649951079000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Jl. P. Natadirja 10 Sebelah Mesjid Al-Munawar Kota Bengkulu),,,,,,,,,
-190,249,ff48ef52-a931-448d-8480-f47e243d10a6,BPPW.Bengkulu,1649951089000,,1649951089000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-191,250,9a8ef182-de94-4fac-890f-00ee8b365adb,BPPW.Bengkulu,1649951096000,,1649951096000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-192,251,ee33f992-e533-4f97-909a-76cf599106ea,BPPW.Bengkulu,1649951105000,,1649951105000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kawasan Timur Indah Ujung Kota Bengkulu),,,,,,,,,
-193,252,c9045f4f-0347-4dd2-a956-4feb05a3427c,BPPW.Bengkulu,1649951114000,,1649951114000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Lokasi Kawasan Bajak Kota Bengkulu),,,,,,,,,
-194,253,a7cb3810-2c83-4627-a84f-0078760a884a,BPPW.Bengkulu,1649951122000,,1649951122000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-195,254,76c9947d-cfa1-4965-855b-10e3dab1bffd,BPPW.Bengkulu,1649951129000,,1649951129000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-196,255,186a3085-e517-467d-8186-f7a7ae8bfa2a,BPPW.Bengkulu,1649951138000,,1649951138000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-197,256,526ab1be-b0f1-4c74-bc11-996848e06423,BPPW.Bengkulu,1649951145000,,1649951145000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-198,257,fc76947a-4463-4437-91ea-4eec9a30b325,BPPW.Bengkulu,1649951152000,,1649951152000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-199,258,23dfbbb7-2351-4127-a669-487eb8354059,BPPW.Bengkulu,1649951162000,,1649951162000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Lokasi Kawasan Surabaya dan KWS. Cimanuk Kota Bengkulu),,,,,,,,,
-200,259,2e58a55b-f530-4e53-8e10-be8e780c5e7b,BPPW.Bengkulu,1649951172000,,1649951172000,2.0,,,,BPPW Bengkulu,,,,,,,,,,,,,,,Pembangunan Drainase ( Pembuangan Air Buangan Air Hujan Kota Bengkulu),,,,,,,,,
-201,260,9387ebe1-5490-4c81-aa12-4581cb5e4e69,BPPW.Bengkulu,1650272752000,,1650272752000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Puri Lestari Kota Bengkulu,,,,,,,,,
-202,261,e7f85deb-bd38-490b-91f6-e2801bb4db95,BPPW.Bengkulu,1650272800000,,1650272800000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Betungan Kota Bengkulu,,,,,,,,,
-203,262,2f1a92a4-ceba-4445-a129-ad30a2914b6c,BPPW.Bengkulu,1650272867000,,1650272867000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Muhajirin dan Hibrida Kota Bengkulu,,,,,,,,,
-204,263,479dbbd2-5bd3-4493-a759-85a91fc32f8e,BPPW.Bengkulu,1650272926000,,1650272926000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Puri Lestari 2 Kota Bengkulu,,,,,,,,,
-205,264,eb6b3e31-25c6-4c07-811e-3385c0148e28,BPPW.Bengkulu,1650272979000,,1650272979000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Puri Lestari 1 Kota Bengkulu,,,,,,,,,
-206,265,d2de0e4e-2e5f-4754-bfb0-086a2bc39c22,BPPW.Bengkulu,1650273016000,,1650273016000,2.0,,,,BPPW Bengkulu,,,Bengkulu,Kota Bengkulu,,,,,,,,,,,Pembangunan Saluran Drainase Lokasi Kawab Bumi Ayu Selebar Kota Bengkulu,,,,,,,,,
-207,266,10eb2906-1a81-4d81-9ce8-a26d24e1ad48,BPPW.Bengkulu,1650273065000,,1650273065000,2.0,,,,BPPW Bengkulu,,,Bengkulu,,,,,,,,,,Baik,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
-208,267,31e2f7ea-7581-43a7-95e8-d363d2029c64,BPPW.Bengkulu,1650273120000,,1650273120000,2.0,,,,BPPW Bengkulu,,17,Bengkulu,Kota Bengkulu,,,,,,,,,Baik,,Pembangunan Saluran Drainase Lokasi Bumi Ayu Kota Bengkulu,,,,,,,,,
+  Karya Praja, RT 5 RW 2 Kelurahan Tanjung Uban Selatan",33.0,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+139,197,976b17cc-3ff4-436a-bc7d-a39c81127286,1649668495000,BPPW Bali,51.0,Bali,Gianyar,Sukawati,Sukawati,33.0,5.0,Drainase Sukawati Kabupaten Gianyar,2021.0
+140,199,f1cb8f4c-3679-4d2f-91eb-1db2daa848d6,1649949770000,BPPW Bengkulu,17.0,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,2022.0
+141,200,0019fad3-46d8-450b-8125-f98716b35e4a,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,"Kota
+  Bengkulu",Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+142,201,5fb91186-8cbd-4d4d-abaf-d9efa9ce1134,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+143,202,d2f29fd0-fe28-4b01-8a44-9dea0f593471,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+144,203,9cef111a-99db-46bf-b715-2ca83101cdbb,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+145,204,e9e92e52-648b-407b-82c0-4afc6668e343,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+146,205,e9d3c01e-3591-4d31-b72b-7d5c6978ddeb,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+147,206,fff4efc0-05af-46fe-9844-541c9d977fa6,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+148,207,48dcd0c5-698d-447e-a1bc-8c975b29c02f,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+149,208,4fd0748b-0c4c-4618-a754-0e831136e1ed,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kab. Kepahiang,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+150,209,c1558345-2ac0-4604-b43d-7d61ea80268b,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kab. Lebong,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+151,210,10610b56-8d91-4674-b8ed-2403b43961d1,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kab. Kepahiang,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+152,211,7b5012d5-0a75-4da1-9c3a-f74088001790,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+153,212,fd582fd3-6f11-479f-bd25-f0a7b2ce6bac,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kab. Seluma,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+154,213,724f5f81-cc86-4f63-ab06-525aca628cfb,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+155,214,ab72898c-c40b-4744-8b69-bd4886746a1b,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+156,215,c7810928-c292-4cd3-9c03-fe82589e35ec,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kab. Seluma,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+157,216,a83c5a95-4ae1-41d3-b759-fc229009e498,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kab. Bengkulu Utara,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+158,217,af6ecd76-24ce-457a-aac8-646ea7fbdd4f,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+159,218,c024d3a4-d302-4111-bbcf-8f0ccd4925c3,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+160,219,d944d8ce-525f-42f3-91f9-b52c4e649208,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+161,220,5f466c68-85b6-422b-bcd0-a2487bc0b70f,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+162,221,7e3abb86-ad14-497e-858f-225d8f578939,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+163,222,4ef7984a-8fc4-4443-bbe1-38f14f094ad0,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+164,223,929651e6-bc62-466d-a325-09f6667fe867,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+165,224,0d4b67bc-a964-4cb3-ab31-a752a75f44dd,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+166,225,5518132c-a485-464e-9ede-ee243a9c8a63,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+167,226,9d489fb4-3f66-41ec-981b-1f658d7f7b80,1649950442000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Betungan Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+168,227,c76ad3d3-dd2e-487f-901f-29b6760f0e6a,1649950574000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+169,228,f94cd8f3-7d47-4084-a1cd-4120b6e1ce79,1649950708000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+170,229,6d433f0a-ec9e-4892-93f9-bfb3a4b2bc23,1649950739000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+171,230,f7ef8d3e-3156-4b04-b9cc-ecccaf14d74c,1649950764000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+172,231,49123ead-eb60-4a48-9bd6-3f49a4e8469e,1649950773000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+173,232,95cc3f6b-b8ad-4ef6-b4e3-e3512416fcad,1649950782000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+174,233,11cc0782-fe1b-45a9-9a6c-bd627bd72e39,1649950798000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+175,234,15ee2b77-3a80-4899-9428-2a03c85c9d42,1649950911000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+176,235,e0678731-a19c-4545-aefa-793befd499ea,1649950938000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+177,236,f5ff8f2d-7074-4c14-88a0-1e5a0828d9a8,1649950946000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+178,237,21f17924-e1f1-48ad-95b6-dbeade2bdc74,1649950957000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+179,238,7bff0fc3-34db-4d96-b77c-258f39a94b09,1649950966000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+180,239,4f2f8031-94af-490d-8a22-b037bf55a6f1,1649950973000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+181,240,9a494c19-d37f-4827-b376-114842dbf219,1649951004000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+182,241,a380a649-e9b8-4376-8c00-16fab8eb7229,1649951015000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+183,242,3aa20305-bb36-4fe2-8f95-c361e1f7df96,1649951028000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+184,243,7e1a4d9a-9164-492a-bad5-b25f8e438a69,1649951035000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+185,244,b47e85a7-2869-403d-8abc-e552776a20f9,1649951044000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+186,245,1dae9051-7bd9-43fa-a118-e5d098a6bef4,1649951051000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+187,246,4df8e627-b44b-4e28-bab4-95d12e5326f3,1649951060000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+188,247,554c1abe-3b61-455e-af0b-0d750f50e41e,1649951070000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+189,248,bf2a5b6d-28e8-458e-893f-2d5d9b30f2f4,1649951079000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+190,249,ff48ef52-a931-448d-8480-f47e243d10a6,1649951089000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+191,250,9a8ef182-de94-4fac-890f-00ee8b365adb,1649951096000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+192,251,ee33f992-e533-4f97-909a-76cf599106ea,1649951105000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+193,252,c9045f4f-0347-4dd2-a956-4feb05a3427c,1649951114000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+194,253,a7cb3810-2c83-4627-a84f-0078760a884a,1649951122000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+195,254,76c9947d-cfa1-4965-855b-10e3dab1bffd,1649951129000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+196,255,186a3085-e517-467d-8186-f7a7ae8bfa2a,1649951138000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+197,256,526ab1be-b0f1-4c74-bc11-996848e06423,1649951145000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+198,257,fc76947a-4463-4437-91ea-4eec9a30b325,1649951152000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+199,258,23dfbbb7-2351-4127-a669-487eb8354059,1649951162000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+200,259,2e58a55b-f530-4e53-8e10-be8e780c5e7b,1649951172000,BPPW Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+201,260,9387ebe1-5490-4c81-aa12-4581cb5e4e69,1650272752000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+202,261,e7f85deb-bd38-490b-91f6-e2801bb4db95,1650272800000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+203,262,2f1a92a4-ceba-4445-a129-ad30a2914b6c,1650272867000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+204,263,479dbbd2-5bd3-4493-a759-85a91fc32f8e,1650272926000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+205,264,eb6b3e31-25c6-4c07-811e-3385c0148e28,1650272979000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+206,265,d2de0e4e-2e5f-4754-bfb0-086a2bc39c22,1650273016000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+207,266,10eb2906-1a81-4d81-9ce8-a26d24e1ad48,1650273065000,BPPW Bengkulu,Tidak Diketahui,Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
+208,267,31e2f7ea-7581-43a7-95e8-d363d2029c64,1650273120000,BPPW Bengkulu,17.0,Bengkulu,Kota Bengkulu,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui,Tidak Diketahui
