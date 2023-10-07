@@ -1,0 +1,3 @@
+Jawa Barat
+latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
+-7.0999985,107.80002,971.0,25200,Asia/Bangkok,+07
